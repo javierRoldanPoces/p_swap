@@ -6,7 +6,7 @@
 /*   By: Jroldan- <jroldan-@student.42malaga.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/06/07 14:45:53 by Jroldan-          #+#    #+#             */
-/*   Updated: 2023/06/14 20:24:50 by Jroldan-         ###   ########.fr       */
+/*   Updated: 2023/06/15 16:30:21 by Jroldan-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -76,11 +76,6 @@ void	print_stack(t_nodo *list)
 		aux = aux -> next;
 	}	
 }
-
-// void	ft_free_nodo(t_nodo **lst)
-// {
-		
-// }
 
 void	ft_pop(t_nodo **lst)
 {

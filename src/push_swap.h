@@ -6,7 +6,7 @@
 /*   By: Jroldan- <jroldan-@student.42malaga.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/06/06 18:46:50 by Jroldan-          #+#    #+#             */
-/*   Updated: 2023/06/14 20:03:26 by Jroldan-         ###   ########.fr       */
+/*   Updated: 2023/06/15 18:14:01 by Jroldan-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -26,11 +26,11 @@ typedef struct nodo {
 	struct nodo	*prev;
 }	t_nodo;
 
-typedef struct push_swap {
-	int		size;
-	t_nodo	*stack_a;
-	t_nodo	*stack_b;
-}	t_push_swap;
+// typedef struct push_swap {
+// 	int		size;
+// 	t_nodo	*stack_a;
+// 	t_nodo	*stack_b;
+// }	t_push_swap;
 
 //list functions
 t_nodo		*init_list(void);
@@ -40,10 +40,10 @@ void		insert_last(t_nodo **list, t_nodo *new_nodo);
 t_nodo		*final(t_nodo *list);
 void		print_stack(t_nodo *list);
 t_nodo		*delete_nodo(t_nodo *list);
-t_push_swap	*init(void);
+//t_push_swap	*init(void);
 void		ft_pop(t_nodo **lst);
 //struct push_swap
-t_push_swap	*init_push_swap(void);
+//t_push_swap	*init_push_swap(void);
 //parse
 int			ft_check_sign(char *str);
 int			ft_check_digit(char *str);
@@ -54,7 +54,8 @@ int			ft_range_int(long a, long b);
 //movements
 void		swap(t_nodo **a, char c);
 void		ss(t_nodo **a, t_nodo **b);
-void		pa(t_push_swap **ps);
+void		pa(t_nodo **stck_b, t_nodo **stck_a);
+void		pb(t_nodo **origin, t_nodo **dest);
 //free
 void		ft_free_lst(t_nodo *lst);
 #endif

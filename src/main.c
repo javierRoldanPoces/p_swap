@@ -6,7 +6,7 @@
 /*   By: Jroldan- <jroldan-@student.42malaga.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/06/06 18:28:55 by Jroldan-          #+#    #+#             */
-/*   Updated: 2023/06/14 20:26:43 by Jroldan-         ###   ########.fr       */
+/*   Updated: 2023/06/15 18:20:25 by Jroldan-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -35,19 +35,24 @@ int	main(int argc, char **argv)
 {
 	int			i;
 	t_nodo		*aux;
-	t_push_swap	*ps;
+	//t_push_swap	*ps;
+	t_nodo		*stack_a;
+	t_nodo		*stack_b;
 	char		**arg;
 
-	ps = init();
-	ps = init_push_swap();
+	//ps = init();
+	stack_a = init_list();
+	stack_b = init_list();
 	aux = init_list();
+	//ps = init_push_swap();
+	
 	if (argc > 2)
 	{
 		i = 0;
 		while (++i < argc)
 		{
-			ft_params(argv[i], aux, &(ps)->stack_a);
-			ft_params(argv[i], aux, &(ps)->stack_b);
+			ft_params(argv[i], aux, &stack_a);
+			//ft_params(argv[i], aux, &stack_b);
 		}
 	}
 	else if (argc == 2)
@@ -55,25 +60,42 @@ int	main(int argc, char **argv)
 		i = -1;
 		arg = ft_split(argv[1], ' ');
 		while (arg[++i] != NULL)
-			ft_params(arg[i], aux, &(ps)->stack_a);
+			ft_params(arg[i], aux, &stack_a);
 	}
-	if (ft_stack_sorted(ps->stack_a))
+	if (ft_stack_sorted(stack_a))
 		return (printf("error:stack ordenado\n"), 1);
-	ps->size = i;
 	printf("Stack a:\n");
-	print_stack(ps->stack_a);
-	//swap(&(ps->stack_a), 'a');
+	print_stack(stack_a);
 	printf("Stack b:\n");
-	print_stack(ps->stack_b);
+	print_stack(stack_b);
 	//swap(&(ps->stack_b), 'b');
 	//insert_begin((ps->stack_b), (ps->stack_a));
-	pa(&(ps));
-	printf("Stack a:\n");
-	print_stack(ps->stack_a);
+	pb(&stack_a, &stack_b);
+	pb(&stack_a, &stack_b);
+	pb(&stack_a, &stack_b);
+	pb(&stack_a, &stack_b);
+	pb(&stack_a, &stack_b);
+	pb(&stack_a, &stack_b);
+	pb(&stack_a, &stack_b);
+	printf("pb\n");
+	printf("\nStack a:\n");
+	print_stack(stack_a);
 	//print_stack(ps->stack_a);
 	//insert_last(&(ps->stack_b), aux);
 	//insert_last(&(ps->stack_b), aux);
 	printf("Stack b:\n");
-	print_stack(ps->stack_b);
+	print_stack(stack_b);
+	printf("pa");
+	pa(&stack_b, &stack_a);
+	pa(&stack_b, &stack_a);
+	pa(&stack_b, &stack_a);
+	pa(&stack_b, &stack_a);
+	pa(&stack_b, &stack_a);
+	pa(&stack_b, &stack_a);
+	pa(&stack_b, &stack_a);
+	printf("\nStack a:\n");
+	print_stack(stack_a);
+	printf("Stack b:\n");
+	print_stack(stack_b);
 	return (1);
 }

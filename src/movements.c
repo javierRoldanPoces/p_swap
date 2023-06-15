@@ -6,7 +6,7 @@
 /*   By: Jroldan- <jroldan-@student.42malaga.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/06/14 13:03:21 by Jroldan-          #+#    #+#             */
-/*   Updated: 2023/06/14 20:26:57 by Jroldan-         ###   ########.fr       */
+/*   Updated: 2023/06/15 18:18:48 by Jroldan-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -59,19 +59,26 @@ void	ss(t_nodo **a, t_nodo **b)
 	//free (tmp_b);
 }
 
-void	pa(t_push_swap **ps)
+void	pb(t_nodo **stck_a, t_nodo **stck_b)
 {
-	//t_nodo	*tmp;
+	t_nodo	*temp;
 
-	if (((*ps)->stack_a) == NULL)
+	if (*stck_a == NULL)
 		return ;
-	else
-	{
-		//tmp = (*ps)->stack_b;
-		//tmp->date = 3003;
-		insert_begin((*ps)->stack_b, (*ps)->stack_a);
-		ft_pop(&(*ps)->stack_b);		
-		//(ps)->stack_->next = ((ps)->stack_a)->next->next;
-		//((*ps)->stack_a)->prev = NULL;
-	}
+	temp = (*stck_a)->next;
+	(*stck_a)->next = *stck_b;
+	*stck_b = *stck_a;
+	*stck_a = temp;
+}
+
+void	pa(t_nodo **stck_b, t_nodo **stck_a)
+{
+	t_nodo	*temp;
+
+	if (*stck_b == NULL)
+		return ;
+	temp = (*stck_b)->next;
+	(*stck_b)->next = *stck_a;
+	*stck_a = *stck_b;
+	*stck_b = temp;
 }
