@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   check_values.c                                     :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: Jroldan- <jroldan-@student.42malaga.com    +#+  +:+       +#+        */
+/*   By: javier <javier@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/06/07 18:20:24 by Jroldan-          #+#    #+#             */
-/*   Updated: 2023/06/14 13:02:13 by Jroldan-         ###   ########.fr       */
+/*   Updated: 2023/06/19 17:26:08 by javier           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -63,7 +63,7 @@ int	ft_check_digit(char *str)
 {
 	int	i;
 
-	i = 0;
+	i = 1;
 	while (str[i])
 	{
 		if (ft_isdigit(str[i]))
@@ -89,23 +89,5 @@ int	repeat_value(int a, t_nodo *lst)
 			return (0);
 		aux = aux->next;
 	}
-	return (1);
-}
-
-int	ft_stack_sorted(t_nodo *lst)
-{
-	t_nodo	*aux;
-
-	aux = lst;
-	if (lst == NULL)
-		return (1);
-	while (aux->next != NULL)
-	{
-		if (aux->date < aux->next->date)
-			aux = aux->next;
-		else
-			return (0);
-	}
-	printf("ordenado\n");
 	return (1);
 }

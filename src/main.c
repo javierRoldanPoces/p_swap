@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   main.c                                             :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: Jroldan- <jroldan-@student.42malaga.com    +#+  +:+       +#+        */
+/*   By: javier <javier@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/06/06 18:28:55 by Jroldan-          #+#    #+#             */
-/*   Updated: 2023/06/15 18:20:25 by Jroldan-         ###   ########.fr       */
+/*   Updated: 2023/06/19 17:59:09 by javier           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -35,17 +35,13 @@ int	main(int argc, char **argv)
 {
 	int			i;
 	t_nodo		*aux;
-	//t_push_swap	*ps;
 	t_nodo		*stack_a;
 	t_nodo		*stack_b;
 	char		**arg;
 
-	//ps = init();
 	stack_a = init_list();
 	stack_b = init_list();
 	aux = init_list();
-	//ps = init_push_swap();
-	
 	if (argc > 2)
 	{
 		i = 0;
@@ -66,36 +62,23 @@ int	main(int argc, char **argv)
 		return (printf("error:stack ordenado\n"), 1);
 	printf("Stack a:\n");
 	print_stack(stack_a);
-	printf("Stack b:\n");
-	print_stack(stack_b);
-	//swap(&(ps->stack_b), 'b');
-	//insert_begin((ps->stack_b), (ps->stack_a));
-	pb(&stack_a, &stack_b);
-	pb(&stack_a, &stack_b);
-	pb(&stack_a, &stack_b);
-	pb(&stack_a, &stack_b);
-	pb(&stack_a, &stack_b);
-	pb(&stack_a, &stack_b);
-	pb(&stack_a, &stack_b);
-	printf("pb\n");
-	printf("\nStack a:\n");
+	reverse(&(stack_a), 'a');
+	printf("\n************************\n");
+	printf("Stack a tras reverse a:\n");
 	print_stack(stack_a);
-	//print_stack(ps->stack_a);
-	//insert_last(&(ps->stack_b), aux);
-	//insert_last(&(ps->stack_b), aux);
-	printf("Stack b:\n");
 	print_stack(stack_b);
-	printf("pa");
-	pa(&stack_b, &stack_a);
-	pa(&stack_b, &stack_a);
-	pa(&stack_b, &stack_a);
-	pa(&stack_b, &stack_a);
-	pa(&stack_b, &stack_a);
-	pa(&stack_b, &stack_a);
-	pa(&stack_b, &stack_a);
-	printf("\nStack a:\n");
+	print_stack(stack_b);
+/*	//swap(&(stack_a), 'a');
+	pb(&stack_a, &stack_b);
+	pb(&stack_a, &stack_b);
+	printf("\nStack a tras 2 pb:\n");
 	print_stack(stack_a);
-	printf("Stack b:\n");
+	printf("\nStack b tras 2 pb:\n");
 	print_stack(stack_b);
+	ss(&(stack_a), &(stack_b));
+	printf("\nStack a tras ss:\n");
+	print_stack(stack_a);
+	printf("\nStack b tras ss:\n");
+	print_stack(stack_b);*/
 	return (1);
 }

@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   operation_list.c                                   :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: Jroldan- <jroldan-@student.42malaga.com    +#+  +:+       +#+        */
+/*   By: javier <javier@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/06/07 14:45:53 by Jroldan-          #+#    #+#             */
-/*   Updated: 2023/06/15 16:30:21 by Jroldan-         ###   ########.fr       */
+/*   Updated: 2023/06/19 18:06:56 by javier           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -26,14 +26,6 @@ t_nodo	*create_nodo(int a)
 	aux->next = NULL;
 	aux->prev = NULL;
 	return (aux);
-}
-
-t_nodo	*insert_begin(t_nodo *list, t_nodo *new_nodo)
-{
-	new_nodo->next = list;
-	if (list != NULL)
-		list->prev = new_nodo;
-	return (list);
 }
 
 void	insert_last(t_nodo **list, t_nodo *new_nodo)
@@ -72,25 +64,11 @@ void	print_stack(t_nodo *list)
 		printf("lista vacia \n");
 	while (aux != NULL)
 	{
-		printf("%d \n", aux->date);
+		printf("dato-> %d \n", aux->date);
+		printf("Actual-> %p \n", aux);
+		printf("Next-> %p \n", aux->next);
+		printf("Prev-> %p \n", aux->prev);
 		aux = aux -> next;
 	}	
 }
 
-void	ft_pop(t_nodo **lst)
-{
-	(*lst) = (*lst)->next;
-	(*lst)->prev = NULL;
-}
-
-void	ft_free_lst(t_nodo *lst)
-{
-	t_nodo	*tmp;
-
-	while (lst)
-	{
-		tmp = lst;
-		lst = lst->next;
-		free(tmp);
-	}
-}

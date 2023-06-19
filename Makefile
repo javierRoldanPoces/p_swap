@@ -3,10 +3,10 @@
 #                                                         :::      ::::::::    #
 #    Makefile                                           :+:      :+:    :+:    #
 #                                                     +:+ +:+         +:+      #
-#    By: Jroldan- <jroldan-@student.42malaga.com    +#+  +:+       +#+         #
+#    By: javier <javier@student.42.fr>              +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2023/06/02 11:45:29 by Jroldan-          #+#    #+#              #
-#    Updated: 2023/06/14 13:39:52 by Jroldan-         ###   ########.fr        #
+#    Updated: 2023/06/19 17:48:10 by javier           ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -19,7 +19,9 @@ DIR_SRC = ./src/
 DIR_LIBFT = ./libft
 LIBFT = $(DIR_LIBFT)/libft.a
 SRC =	$(DIR_SRC)/main.c $(DIR_SRC)/operation_list.c  $(DIR_SRC)/check_values.c \
-		$(DIR_SRC)/push_swap_utils.c $(DIR_SRC)/movements.c
+		$(DIR_SRC)/push_swap_utils.c $(DIR_SRC)/movements_swap.c $(DIR_SRC)/movements_push.c \
+		$(DIR_SRC)/movements_rotate.c $(DIR_SRC)/movements_reverse.c $(DIR_SRC)/operation_list2.c \
+		$(DIR_SRC)/check_values2.c
 MAKE = make
 
 #INCLUDES =	push_swap.h libft/libft.h
