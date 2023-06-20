@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   operation_list.c                                   :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: javier <javier@student.42.fr>              +#+  +:+       +#+        */
+/*   By: Jroldan- <jroldan-@student.42malaga.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/06/07 14:45:53 by Jroldan-          #+#    #+#             */
-/*   Updated: 2023/06/19 18:06:56 by javier           ###   ########.fr       */
+/*   Updated: 2023/06/20 19:01:53 by Jroldan-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -23,6 +23,8 @@ t_nodo	*create_nodo(int a)
 
 	aux = (t_nodo *)malloc(sizeof(t_nodo));
 	aux->date = a;
+	aux->index = 0;
+	aux->cost = -1;
 	aux->next = NULL;
 	aux->prev = NULL;
 	return (aux);
@@ -64,11 +66,12 @@ void	print_stack(t_nodo *list)
 		printf("lista vacia \n");
 	while (aux != NULL)
 	{
+		printf("*******************\n");
 		printf("dato-> %d \n", aux->date);
+		printf("index-> %d \n", aux->index);
 		printf("Actual-> %p \n", aux);
 		printf("Next-> %p \n", aux->next);
 		printf("Prev-> %p \n", aux->prev);
 		aux = aux -> next;
 	}	
 }
-

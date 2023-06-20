@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   main.c                                             :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: javier <javier@student.42.fr>              +#+  +:+       +#+        */
+/*   By: Jroldan- <jroldan-@student.42malaga.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/06/06 18:28:55 by Jroldan-          #+#    #+#             */
-/*   Updated: 2023/06/19 17:59:09 by javier           ###   ########.fr       */
+/*   Updated: 2023/06/20 18:31:22 by Jroldan-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -46,10 +46,7 @@ int	main(int argc, char **argv)
 	{
 		i = 0;
 		while (++i < argc)
-		{
 			ft_params(argv[i], aux, &stack_a);
-			//ft_params(argv[i], aux, &stack_b);
-		}
 	}
 	else if (argc == 2)
 	{
@@ -60,25 +57,14 @@ int	main(int argc, char **argv)
 	}
 	if (ft_stack_sorted(stack_a))
 		return (printf("error:stack ordenado\n"), 1);
+	ft_asign_index(&(stack_a), ft_size_lst(stack_a));
 	printf("Stack a:\n");
 	print_stack(stack_a);
-	reverse(&(stack_a), 'a');
-	printf("\n************************\n");
-	printf("Stack a tras reverse a:\n");
-	print_stack(stack_a);
 	print_stack(stack_b);
-	print_stack(stack_b);
-/*	//swap(&(stack_a), 'a');
-	pb(&stack_a, &stack_b);
-	pb(&stack_a, &stack_b);
-	printf("\nStack a tras 2 pb:\n");
+	//reverse(&stack_a, 'a');
+	//swap(&stack_a, 'a');
+	ft_sort_three(&(stack_a));
+	printf("Stack a ordenando 3 elementos:\n");
 	print_stack(stack_a);
-	printf("\nStack b tras 2 pb:\n");
-	print_stack(stack_b);
-	ss(&(stack_a), &(stack_b));
-	printf("\nStack a tras ss:\n");
-	print_stack(stack_a);
-	printf("\nStack b tras ss:\n");
-	print_stack(stack_b);*/
 	return (1);
 }

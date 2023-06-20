@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   movements_swap.c                                   :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: javier <javier@student.42.fr>              +#+  +:+       +#+        */
+/*   By: Jroldan- <jroldan-@student.42malaga.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/06/14 13:03:21 by Jroldan-          #+#    #+#             */
-/*   Updated: 2023/06/19 16:39:22 by javier           ###   ########.fr       */
+/*   Updated: 2023/06/20 18:31:02 by Jroldan-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,24 +14,31 @@
 
 void	swap(t_nodo **a, char c)
 {
-	t_nodo	*tmp;
+	// t_nodo	*tmp;
 
-	if (*a == NULL || (*a)->next == NULL)
-		return ;
-	if (*a != NULL && (*a)->next != NULL)
-	{	
-		tmp = (*a)->next;
-		(*a)->next = tmp->next;
-		tmp->next = (*a);
-		(*a) = tmp;
-	}
-	if (c == 's')
-		printf("%c%c\n", c, c);
-	else
-		printf("s%c\n", c);
-	//free(tmp);
+	// if (*a == NULL || (*a)->next == NULL)
+	// 	return ;
+	// if (*a != NULL && (*a)->next != NULL)
+	// {	
+	// 	tmp = (*a)->next;
+	// 	(*a)->next = tmp->next;
+	// 	tmp->next = (*a);
+	// 	(*a) = tmp;
+	// }
+	int	swap;
+	int	swap_index;
+	
+	swap = (*a)->date;
+	swap_index = (*a)->index;
+	(*a)->date = (*a)->next->date;
+	(*a)->index = (*a)->next->index;
+	(*a)->next->date = swap;
+	(*a)->next->index = swap_index;
+	if (c == 'a' || c == 'b')
+		printf ("rr%c\n", c);
 }
 
+//arreglar ss
 void	ss(t_nodo **a, t_nodo **b)
 {
 	t_nodo	*tmp_a;
@@ -46,7 +53,6 @@ void	ss(t_nodo **a, t_nodo **b)
 		tmp_a->next = (*a);
 		(*a) = tmp_a;
 	}
-	//free(tmp_a);
 	if (*b == NULL || (*b)->next == NULL)
 		return ;
 	if (*b != NULL && (*b)->next != NULL)
@@ -56,5 +62,5 @@ void	ss(t_nodo **a, t_nodo **b)
 		tmp_b->next = (*b);
 		(*b) = tmp_b;
 	}
-	//free (tmp_b);
+	printf("ss\n");
 }
