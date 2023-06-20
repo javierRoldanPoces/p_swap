@@ -6,7 +6,7 @@
 /*   By: Jroldan- <jroldan-@student.42malaga.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/06/06 18:46:50 by Jroldan-          #+#    #+#             */
-/*   Updated: 2023/06/20 18:01:00 by Jroldan-         ###   ########.fr       */
+/*   Updated: 2023/06/20 19:46:58 by Jroldan-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -23,6 +23,7 @@ typedef struct nodo {
 	int			date;
 	int			index;
 	int			cost;
+	int			pos;
 	struct nodo	*next;
 	struct nodo	*prev;
 }	t_nodo;
@@ -60,5 +61,6 @@ void		rr(t_nodo **stack_a, t_nodo **stack_b);
 void		reverse(t_nodo **stack, char c);
 //push_swap sort
 void		ft_sort_three(t_nodo **lst);
+void		ft_position(t_nodo **lst);
 
 #endif

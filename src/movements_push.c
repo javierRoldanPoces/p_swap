@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   movements_push.c                                   :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: javier <javier@student.42.fr>              +#+  +:+       +#+        */
+/*   By: Jroldan- <jroldan-@student.42malaga.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/06/19 16:38:48 by javier            #+#    #+#             */
-/*   Updated: 2023/06/19 16:39:28 by javier           ###   ########.fr       */
+/*   Updated: 2023/06/20 20:03:52 by Jroldan-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -27,6 +27,9 @@ void	pb(t_nodo **stck_a, t_nodo **stck_b)
 	*stck_b = *stck_a;
 	temp->prev = NULL;
 	*stck_a = temp;
+	ft_position(stck_a);
+	ft_position(stck_b);
+	printf("pb\n");
 }
 
 void	pa(t_nodo **stck_b, t_nodo **stck_a)
@@ -44,4 +47,7 @@ void	pa(t_nodo **stck_b, t_nodo **stck_a)
 	*stck_a = *stck_b;
 	temp->prev = NULL;
 	*stck_b = temp;
+	ft_position(stck_b);
+	ft_position(stck_a);
+	printf("pa\n");
 }

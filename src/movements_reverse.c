@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   movements_reverse.c                                :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: javier <javier@student.42.fr>              +#+  +:+       +#+        */
+/*   By: Jroldan- <jroldan-@student.42malaga.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/06/19 17:32:07 by javier            #+#    #+#             */
-/*   Updated: 2023/06/19 18:06:07 by javier           ###   ########.fr       */
+/*   Updated: 2023/06/20 20:04:46 by Jroldan-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -26,6 +26,7 @@ void	reverse(t_nodo **stack, char c)
 	fin->prev = NULL;
 	tmp->next = NULL;
 	(*stack) = fin;
+	ft_position(stack);
 	if (c == 'a' || c == 'b')
 		printf ("rr%c\n", c);
 }

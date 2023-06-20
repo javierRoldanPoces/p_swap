@@ -6,7 +6,7 @@
 /*   By: Jroldan- <jroldan-@student.42malaga.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/06/20 17:46:09 by Jroldan-          #+#    #+#             */
-/*   Updated: 2023/06/20 18:40:16 by Jroldan-         ###   ########.fr       */
+/*   Updated: 2023/06/20 20:02:47 by Jroldan-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -27,5 +27,23 @@ void	ft_sort_three(t_nodo **lst)
 		else if ((*lst)->index > aux->index)
 			swap(lst, 'a');
 		aux = (*lst)->next;
+	}
+	ft_position(lst);
+}
+
+void	ft_position(t_nodo **lst)
+{
+	int		i;
+	t_nodo	*aux;
+
+	if (!(*lst))
+		return ;
+	i = 0;
+	aux = (*lst);
+	while (aux)
+	{
+		aux->pos = i;
+		i++;
+		aux = aux->next;
 	}
 }

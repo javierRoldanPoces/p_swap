@@ -6,7 +6,7 @@
 /*   By: Jroldan- <jroldan-@student.42malaga.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/06/14 13:03:21 by Jroldan-          #+#    #+#             */
-/*   Updated: 2023/06/20 18:31:02 by Jroldan-         ###   ########.fr       */
+/*   Updated: 2023/06/20 20:05:55 by Jroldan-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -27,7 +27,7 @@ void	swap(t_nodo **a, char c)
 	// }
 	int	swap;
 	int	swap_index;
-	
+
 	swap = (*a)->date;
 	swap_index = (*a)->index;
 	(*a)->date = (*a)->next->date;

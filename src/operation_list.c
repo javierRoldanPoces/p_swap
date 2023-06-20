@@ -6,7 +6,7 @@
 /*   By: Jroldan- <jroldan-@student.42malaga.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/06/07 14:45:53 by Jroldan-          #+#    #+#             */
-/*   Updated: 2023/06/20 19:01:53 by Jroldan-         ###   ########.fr       */
+/*   Updated: 2023/06/20 19:55:02 by Jroldan-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -69,9 +69,10 @@ void	print_stack(t_nodo *list)
 		printf("*******************\n");
 		printf("dato-> %d \n", aux->date);
 		printf("index-> %d \n", aux->index);
-		printf("Actual-> %p \n", aux);
-		printf("Next-> %p \n", aux->next);
-		printf("Prev-> %p \n", aux->prev);
+		printf("position in stack-> %d \n", aux->pos);
+		// printf("Actual-> %p \n", aux);
+		// printf("Next-> %p \n", aux->next);
+		// printf("Prev-> %p \n", aux->prev);
 		aux = aux -> next;
 	}	
 }
