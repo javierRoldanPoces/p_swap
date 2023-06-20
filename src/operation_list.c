@@ -6,7 +6,7 @@
 /*   By: Jroldan- <jroldan-@student.42malaga.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/06/07 14:45:53 by Jroldan-          #+#    #+#             */
-/*   Updated: 2023/06/20 19:55:02 by Jroldan-         ###   ########.fr       */
+/*   Updated: 2023/06/20 20:13:56 by Jroldan-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,6 +24,7 @@ t_nodo	*create_nodo(int a)
 	aux = (t_nodo *)malloc(sizeof(t_nodo));
 	aux->date = a;
 	aux->index = 0;
+	aux->pos = -1;
 	aux->cost = -1;
 	aux->next = NULL;
 	aux->prev = NULL;

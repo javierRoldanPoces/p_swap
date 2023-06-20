@@ -6,7 +6,7 @@
 /*   By: Jroldan- <jroldan-@student.42malaga.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/06/14 13:03:21 by Jroldan-          #+#    #+#             */
-/*   Updated: 2023/06/20 20:05:55 by Jroldan-         ###   ########.fr       */
+/*   Updated: 2023/06/20 20:11:40 by Jroldan-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -35,7 +35,7 @@ void	swap(t_nodo **a, char c)
 	(*a)->next->date = swap;
 	(*a)->next->index = swap_index;
 	if (c == 'a' || c == 'b')
-		printf ("rr%c\n", c);
+		printf ("s%c\n", c);
 }
 
 //arreglar ss
