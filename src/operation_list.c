@@ -6,7 +6,7 @@
 /*   By: Jroldan- <jroldan-@student.42malaga.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/06/07 14:45:53 by Jroldan-          #+#    #+#             */
-/*   Updated: 2023/06/20 20:13:56 by Jroldan-         ###   ########.fr       */
+/*   Updated: 2023/06/21 18:13:32 by Jroldan-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,8 +24,10 @@ t_nodo	*create_nodo(int a)
 	aux = (t_nodo *)malloc(sizeof(t_nodo));
 	aux->date = a;
 	aux->index = 0;
+	aux->cost_a = -1;
+	aux->cost_b = -1;
 	aux->pos = -1;
-	aux->cost = -1;
+	aux->target_pos = -1;
 	aux->next = NULL;
 	aux->prev = NULL;
 	return (aux);
@@ -74,6 +76,7 @@ void	print_stack(t_nodo *list)
 		// printf("Actual-> %p \n", aux);
 		// printf("Next-> %p \n", aux->next);
 		// printf("Prev-> %p \n", aux->prev);
+		printf("target_pos-> %d \n", aux->target_pos);
 		aux = aux -> next;
 	}	
 }
