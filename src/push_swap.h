@@ -6,7 +6,7 @@
 /*   By: Jroldan- <jroldan-@student.42malaga.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/06/06 18:46:50 by Jroldan-          #+#    #+#             */
-/*   Updated: 2023/06/21 13:07:08 by Jroldan-         ###   ########.fr       */
+/*   Updated: 2023/06/22 17:13:53 by Jroldan-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,6 +24,7 @@ typedef struct nodo {
 	int			index;
 	int			cost_a;
 	int			cost_b;
+	int			cost_total;
 	int			pos;
 	int			target_pos;
 	struct nodo	*next;
@@ -55,10 +56,16 @@ void		pb(t_nodo **origin, t_nodo **dest);
 void		rotate(t_nodo **stack, char c);
 void		rr(t_nodo **stack_a, t_nodo **stack_b);
 void		reverse(t_nodo **stack, char c);
+void		rrr(t_nodo **stack_a, t_nodo **stack_b);
 //push_swap sort
 void		ft_sort_three(t_nodo **lst);
 void		ft_position(t_nodo **lst);
 void		ft_sort(t_nodo **stack_a, t_nodo **stack_b);
 void		ft_target_pos(t_nodo **stack_a, t_nodo **stack_b);
+int			ft_abs(int a);
+int			index_min(t_nodo **stack_a);
+void		ft_calc_cost(t_nodo **stack_a, t_nodo **stack_b);
+void		ft_total_cost(t_nodo **stack_b);
+int			ft_calc_min_cost(t_nodo *lst);
 
 #endif

@@ -6,7 +6,7 @@
 /*   By: Jroldan- <jroldan-@student.42malaga.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/06/06 18:28:55 by Jroldan-          #+#    #+#             */
-/*   Updated: 2023/06/21 18:11:36 by Jroldan-         ###   ########.fr       */
+/*   Updated: 2023/06/22 17:47:36 by Jroldan-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -60,17 +60,13 @@ int	main(int argc, char **argv)
 	ft_asign_index(&(stack_a), ft_size_lst(stack_a));
 	ft_position(&(stack_a));
 	printf("++++++++++++++++++++++++++Stack a:\n");
-	printf("size a:%d\n", ft_size_lst(stack_a));
 	print_stack(stack_a);
 	printf("+++++++++++++++++++++++++++Stack b:\n");
 	printf("size b:%d\n", ft_size_lst(stack_b));
 	print_stack(stack_b);
 	//pb(&stack_a, &stack_b);
 	ft_sort(&(stack_a), &(stack_b));
-	ft_target_pos(&(stack_a), &(stack_b));
-	//reverse(&stack_a, 'a');
-	//swap(&stack_a, 'a');
-	//ft_sort_three(&(stack_a));
+	//ft_calc_cost(&(stack_a), &(stack_b));
 	printf("+++++++++++++++++++++++++++++Stack a :\n");
 	printf("size a:%d\n", ft_size_lst(stack_a));
 	print_stack(stack_a);

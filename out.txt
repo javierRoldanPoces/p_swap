@@ -1,0 +1,3949 @@
+
+  //./push_swap 34 106 -45 -32 100 101 102 105 109 99 107 108 -40 -393718 -16005 -3841 -4486 -2940 -16424 10458 -525 -16238 -3719 -4507 3703 -12912 -16218 -4334 -15968 -21368 -4342 -16977 -5521 11568 -14713 246 6006 2869 15056 18057 6462 8890 14566 19847 -6675 -12836 14018 20516 15448 12778 -797 5660 -9650 14540 -16154 8708 17692 12095 11423 -14154 -17558 -2428 3185 -14704 11528 -16166 -10480 6386 12045 3013 1835 1415 -7739 -15876 -8989 -10898 -5825 -10188 -313 11590 12132 -17505 5266 19175 -17876 -20020 -15527 -21445 -7487 -14314 20053 -14818 -14997 6862 -1932 16984 -801 11583 2200 638 5423 -7287 20602 12671 20975 -13981 -19550 -10009 4262 2052 1764 19935 -173 -8588 14343 21211 -15997 4962 -9566 2366 2813 -19073 -19818 -19393 13799 -7951 15478 11615 18642 12900 -16628 20240 1251 20908 19378 -3758 -19721 15584 650 16816 -9168 15007 12733 19778 -14653 11753 9106 5081 16327 7911 -7971 -3961 -7177 -4099 -19563 16419 19346 17718 -9991 7592 -1459 -6199 -19829 19759 -1446 12933 13191 -16659 4482 -3917 6178 5733 3499 -9007 -15437 8729 -15104 -4311 287 -940 1561 19772 21262 -17902 -3826 -7196 18873 -8148 -10343 -16368 686 -5583 -12323 -14828 1680 -850 2049 6938 17068 -4834 11674 18343 4444 15530 15608 10070 -11413 1006 10177 1999 -1223 19058  -8895 
+++++++++++++++++++++++++++Stack a:
+size a:213
+*******************
+dato-> 34 
+index-> 100 
+position in stack-> 0 
+target_pos-> -1 
+cost_b -2 
+cost_a-> -2 
+cost_total-> -1 
+*******************
+dato-> 106 
+index-> 106 
+position in stack-> 1 
+target_pos-> -1 
+cost_b -2 
+cost_a-> -2 
+cost_total-> -1 
+*******************
+dato-> -45 
+index-> 97 
+position in stack-> 2 
+target_pos-> -1 
+cost_b -2 
+cost_a-> -2 
+cost_total-> -1 
+*******************
+dato-> -32 
+index-> 99 
+position in stack-> 3 
+target_pos-> -1 
+cost_b -2 
+cost_a-> -2 
+cost_total-> -1 
+*******************
+dato-> 100 
+index-> 102 
+position in stack-> 4 
+target_pos-> -1 
+cost_b -2 
+cost_a-> -2 
+cost_total-> -1 
+*******************
+dato-> 101 
+index-> 103 
+position in stack-> 5 
+target_pos-> -1 
+cost_b -2 
+cost_a-> -2 
+cost_total-> -1 
+*******************
+dato-> 102 
+index-> 104 
+position in stack-> 6 
+target_pos-> -1 
+cost_b -2 
+cost_a-> -2 
+cost_total-> -1 
+*******************
+dato-> 105 
+index-> 105 
+position in stack-> 7 
+target_pos-> -1 
+cost_b -2 
+cost_a-> -2 
+cost_total-> -1 
+*******************
+dato-> 109 
+index-> 109 
+position in stack-> 8 
+target_pos-> -1 
+cost_b -2 
+cost_a-> -2 
+cost_total-> -1 
+*******************
+dato-> 99 
+index-> 101 
+position in stack-> 9 
+target_pos-> -1 
+cost_b -2 
+cost_a-> -2 
+cost_total-> -1 
+*******************
+dato-> 107 
+index-> 107 
+position in stack-> 10 
+target_pos-> -1 
+cost_b -2 
+cost_a-> -2 
+cost_total-> -1 
+*******************
+dato-> 108 
+index-> 108 
+position in stack-> 11 
+target_pos-> -1 
+cost_b -2 
+cost_a-> -2 
+cost_total-> -1 
+*******************
+dato-> -40 
+index-> 98 
+position in stack-> 12 
+target_pos-> -1 
+cost_b -2 
+cost_a-> -2 
+cost_total-> -1 
+*******************
+dato-> -393718 
+index-> 1 
+position in stack-> 13 
+target_pos-> -1 
+cost_b -2 
+cost_a-> -2 
+cost_total-> -1 
+*******************
+dato-> -16005 
+index-> 25 
+position in stack-> 14 
+target_pos-> -1 
+cost_b -2 
+cost_a-> -2 
+cost_total-> -1 
+*******************
+dato-> -3841 
+index-> 80 
+position in stack-> 15 
+target_pos-> -1 
+cost_b -2 
+cost_a-> -2 
+cost_total-> -1 
+*******************
+dato-> -4486 
+index-> 73 
+position in stack-> 16 
+target_pos-> -1 
+cost_b -2 
+cost_a-> -2 
+cost_total-> -1 
+*******************
+dato-> -2940 
+index-> 84 
+position in stack-> 17 
+target_pos-> -1 
+cost_b -2 
+cost_a-> -2 
+cost_total-> -1 
+*******************
+dato-> -16424 
+index-> 19 
+position in stack-> 18 
+target_pos-> -1 
+cost_b -2 
+cost_a-> -2 
+cost_total-> -1 
+*******************
+dato-> 10458 
+index-> 156 
+position in stack-> 19 
+target_pos-> -1 
+cost_b -2 
+cost_a-> -2 
+cost_total-> -1 
+*******************
+dato-> -525 
+index-> 94 
+position in stack-> 20 
+target_pos-> -1 
+cost_b -2 
+cost_a-> -2 
+cost_total-> -1 
+*******************
+dato-> -16238 
+index-> 21 
+position in stack-> 21 
+target_pos-> -1 
+cost_b -2 
+cost_a-> -2 
+cost_total-> -1 
+*******************
+dato-> -3719 
+index-> 83 
+position in stack-> 22 
+target_pos-> -1 
+cost_b -2 
+cost_a-> -2 
+cost_total-> -1 
+*******************
+dato-> -4507 
+index-> 72 
+position in stack-> 23 
+target_pos-> -1 
+cost_b -2 
+cost_a-> -2 
+cost_total-> -1 
+*******************
+dato-> 3703 
+index-> 132 
+position in stack-> 24 
+target_pos-> -1 
+cost_b -2 
+cost_a-> -2 
+cost_total-> -1 
+*******************
+dato-> -12912 
+index-> 41 
+position in stack-> 25 
+target_pos-> -1 
+cost_b -2 
+cost_a-> -2 
+cost_total-> -1 
+*******************
+dato-> -16218 
+index-> 22 
+position in stack-> 26 
+target_pos-> -1 
+cost_b -2 
+cost_a-> -2 
+cost_total-> -1 
+*******************
+dato-> -4334 
+index-> 75 
+position in stack-> 27 
+target_pos-> -1 
+cost_b -2 
+cost_a-> -2 
+cost_total-> -1 
+*******************
+dato-> -15968 
+index-> 27 
+position in stack-> 28 
+target_pos-> -1 
+cost_b -2 
+cost_a-> -2 
+cost_total-> -1 
+*******************
+dato-> -21368 
+index-> 3 
+position in stack-> 29 
+target_pos-> -1 
+cost_b -2 
+cost_a-> -2 
+cost_total-> -1 
+*******************
+dato-> -4342 
+index-> 74 
+position in stack-> 30 
+target_pos-> -1 
+cost_b -2 
+cost_a-> -2 
+cost_total-> -1 
+*******************
+dato-> -16977 
+index-> 16 
+position in stack-> 31 
+target_pos-> -1 
+cost_b -2 
+cost_a-> -2 
+cost_total-> -1 
+*******************
+dato-> -5521 
+index-> 70 
+position in stack-> 32 
+target_pos-> -1 
+cost_b -2 
+cost_a-> -2 
+cost_total-> -1 
+*******************
+dato-> 11568 
+index-> 159 
+position in stack-> 33 
+target_pos-> -1 
+cost_b -2 
+cost_a-> -2 
+cost_total-> -1 
+*******************
+dato-> -14713 
+index-> 35 
+position in stack-> 34 
+target_pos-> -1 
+cost_b -2 
+cost_a-> -2 
+cost_total-> -1 
+*******************
+dato-> 246 
+index-> 110 
+position in stack-> 35 
+target_pos-> -1 
+cost_b -2 
+cost_a-> -2 
+cost_total-> -1 
+*******************
+dato-> 6006 
+index-> 142 
+position in stack-> 36 
+target_pos-> -1 
+cost_b -2 
+cost_a-> -2 
+cost_total-> -1 
+*******************
+dato-> 2869 
+index-> 128 
+position in stack-> 37 
+target_pos-> -1 
+cost_b -2 
+cost_a-> -2 
+cost_total-> -1 
+*******************
+dato-> 15056 
+index-> 180 
+position in stack-> 38 
+target_pos-> -1 
+cost_b -2 
+cost_a-> -2 
+cost_total-> -1 
+*******************
+dato-> 18057 
+index-> 193 
+position in stack-> 39 
+target_pos-> -1 
+cost_b -2 
+cost_a-> -2 
+cost_total-> -1 
+*******************
+dato-> 6462 
+index-> 145 
+position in stack-> 40 
+target_pos-> -1 
+cost_b -2 
+cost_a-> -2 
+cost_total-> -1 
+*******************
+dato-> 8890 
+index-> 152 
+position in stack-> 41 
+target_pos-> -1 
+cost_b -2 
+cost_a-> -2 
+cost_total-> -1 
+*******************
+dato-> 14566 
+index-> 178 
+position in stack-> 42 
+target_pos-> -1 
+cost_b -2 
+cost_a-> -2 
+cost_total-> -1 
+*******************
+dato-> 19847 
+index-> 204 
+position in stack-> 43 
+target_pos-> -1 
+cost_b -2 
+cost_a-> -2 
+cost_total-> -1 
+*******************
+dato-> -6675 
+index-> 66 
+position in stack-> 44 
+target_pos-> -1 
+cost_b -2 
+cost_a-> -2 
+cost_total-> -1 
+*******************
+dato-> -12836 
+index-> 42 
+position in stack-> 45 
+target_pos-> -1 
+cost_b -2 
+cost_a-> -2 
+cost_total-> -1 
+*******************
+dato-> 14018 
+index-> 175 
+position in stack-> 46 
+target_pos-> -1 
+cost_b -2 
+cost_a-> -2 
+cost_total-> -1 
+*******************
+dato-> 20516 
+index-> 208 
+position in stack-> 47 
+target_pos-> -1 
+cost_b -2 
+cost_a-> -2 
+cost_total-> -1 
+*******************
+dato-> 15448 
+index-> 181 
+position in stack-> 48 
+target_pos-> -1 
+cost_b -2 
+cost_a-> -2 
+cost_total-> -1 
+*******************
+dato-> 12778 
+index-> 170 
+position in stack-> 49 
+target_pos-> -1 
+cost_b -2 
+cost_a-> -2 
+cost_total-> -1 
+*******************
+dato-> -797 
+index-> 93 
+position in stack-> 50 
+target_pos-> -1 
+cost_b -2 
+cost_a-> -2 
+cost_total-> -1 
+*******************
+dato-> 5660 
+index-> 140 
+position in stack-> 51 
+target_pos-> -1 
+cost_b -2 
+cost_a-> -2 
+cost_total-> -1 
+*******************
+dato-> -9650 
+index-> 51 
+position in stack-> 52 
+target_pos-> -1 
+cost_b -2 
+cost_a-> -2 
+cost_total-> -1 
+*******************
+dato-> 14540 
+index-> 177 
+position in stack-> 53 
+target_pos-> -1 
+cost_b -2 
+cost_a-> -2 
+cost_total-> -1 
+*******************
+dato-> -16154 
+index-> 24 
+position in stack-> 54 
+target_pos-> -1 
+cost_b -2 
+cost_a-> -2 
+cost_total-> -1 
+*******************
+dato-> 8708 
+index-> 150 
+position in stack-> 55 
+target_pos-> -1 
+cost_b -2 
+cost_a-> -2 
+cost_total-> -1 
+*******************
+dato-> 17692 
+index-> 191 
+position in stack-> 56 
+target_pos-> -1 
+cost_b -2 
+cost_a-> -2 
+cost_total-> -1 
+*******************
+dato-> 12095 
+index-> 166 
+position in stack-> 57 
+target_pos-> -1 
+cost_b -2 
+cost_a-> -2 
+cost_total-> -1 
+*******************
+dato-> 11423 
+index-> 157 
+position in stack-> 58 
+target_pos-> -1 
+cost_b -2 
+cost_a-> -2 
+cost_total-> -1 
+*******************
+dato-> -14154 
+index-> 39 
+position in stack-> 59 
+target_pos-> -1 
+cost_b -2 
+cost_a-> -2 
+cost_total-> -1 
+*******************
+dato-> -17558 
+index-> 14 
+position in stack-> 60 
+target_pos-> -1 
+cost_b -2 
+cost_a-> -2 
+cost_total-> -1 
+*******************
+dato-> -2428 
+index-> 85 
+position in stack-> 61 
+target_pos-> -1 
+cost_b -2 
+cost_a-> -2 
+cost_total-> -1 
+*******************
+dato-> 3185 
+index-> 130 
+position in stack-> 62 
+target_pos-> -1 
+cost_b -2 
+cost_a-> -2 
+cost_total-> -1 
+*******************
+dato-> -14704 
+index-> 36 
+position in stack-> 63 
+target_pos-> -1 
+cost_b -2 
+cost_a-> -2 
+cost_total-> -1 
+*******************
+dato-> 11528 
+index-> 158 
+position in stack-> 64 
+target_pos-> -1 
+cost_b -2 
+cost_a-> -2 
+cost_total-> -1 
+*******************
+dato-> -16166 
+index-> 23 
+position in stack-> 65 
+target_pos-> -1 
+cost_b -2 
+cost_a-> -2 
+cost_total-> -1 
+*******************
+dato-> -10480 
+index-> 46 
+position in stack-> 66 
+target_pos-> -1 
+cost_b -2 
+cost_a-> -2 
+cost_total-> -1 
+*******************
+dato-> 6386 
+index-> 144 
+position in stack-> 67 
+target_pos-> -1 
+cost_b -2 
+cost_a-> -2 
+cost_total-> -1 
+*******************
+dato-> 12045 
+index-> 165 
+position in stack-> 68 
+target_pos-> -1 
+cost_b -2 
+cost_a-> -2 
+cost_total-> -1 
+*******************
+dato-> 3013 
+index-> 129 
+position in stack-> 69 
+target_pos-> -1 
+cost_b -2 
+cost_a-> -2 
+cost_total-> -1 
+*******************
+dato-> 1835 
+index-> 121 
+position in stack-> 70 
+target_pos-> -1 
+cost_b -2 
+cost_a-> -2 
+cost_total-> -1 
+*******************
+dato-> 1415 
+index-> 117 
+position in stack-> 71 
+target_pos-> -1 
+cost_b -2 
+cost_a-> -2 
+cost_total-> -1 
+*******************
+dato-> -7739 
+index-> 61 
+position in stack-> 72 
+target_pos-> -1 
+cost_b -2 
+cost_a-> -2 
+cost_total-> -1 
+*******************
+dato-> -15876 
+index-> 28 
+position in stack-> 73 
+target_pos-> -1 
+cost_b -2 
+cost_a-> -2 
+cost_total-> -1 
+*******************
+dato-> -8989 
+index-> 55 
+position in stack-> 74 
+target_pos-> -1 
+cost_b -2 
+cost_a-> -2 
+cost_total-> -1 
+*******************
+dato-> -10898 
+index-> 45 
+position in stack-> 75 
+target_pos-> -1 
+cost_b -2 
+cost_a-> -2 
+cost_total-> -1 
+*******************
+dato-> -5825 
+index-> 68 
+position in stack-> 76 
+target_pos-> -1 
+cost_b -2 
+cost_a-> -2 
+cost_total-> -1 
+*******************
+dato-> -10188 
+index-> 48 
+position in stack-> 77 
+target_pos-> -1 
+cost_b -2 
+cost_a-> -2 
+cost_total-> -1 
+*******************
+dato-> -313 
+index-> 95 
+position in stack-> 78 
+target_pos-> -1 
+cost_b -2 
+cost_a-> -2 
+cost_total-> -1 
+*******************
+dato-> 11590 
+index-> 161 
+position in stack-> 79 
+target_pos-> -1 
+cost_b -2 
+cost_a-> -2 
+cost_total-> -1 
+*******************
+dato-> 12132 
+index-> 167 
+position in stack-> 80 
+target_pos-> -1 
+cost_b -2 
+cost_a-> -2 
+cost_total-> -1 
+*******************
+dato-> -17505 
+index-> 15 
+position in stack-> 81 
+target_pos-> -1 
+cost_b -2 
+cost_a-> -2 
+cost_total-> -1 
+*******************
+dato-> 5266 
+index-> 138 
+position in stack-> 82 
+target_pos-> -1 
+cost_b -2 
+cost_a-> -2 
+cost_total-> -1 
+*******************
+dato-> 19175 
+index-> 198 
+position in stack-> 83 
+target_pos-> -1 
+cost_b -2 
+cost_a-> -2 
+cost_total-> -1 
+*******************
+dato-> -17876 
+index-> 13 
+position in stack-> 84 
+target_pos-> -1 
+cost_b -2 
+cost_a-> -2 
+cost_total-> -1 
+*******************
+dato-> -20020 
+index-> 4 
+position in stack-> 85 
+target_pos-> -1 
+cost_b -2 
+cost_a-> -2 
+cost_total-> -1 
+*******************
+dato-> -15527 
+index-> 29 
+position in stack-> 86 
+target_pos-> -1 
+cost_b -2 
+cost_a-> -2 
+cost_total-> -1 
+*******************
+dato-> -21445 
+index-> 2 
+position in stack-> 87 
+target_pos-> -1 
+cost_b -2 
+cost_a-> -2 
+cost_total-> -1 
+*******************
+dato-> -7487 
+index-> 62 
+position in stack-> 88 
+target_pos-> -1 
+cost_b -2 
+cost_a-> -2 
+cost_total-> -1 
+*******************
+dato-> -14314 
+index-> 38 
+position in stack-> 89 
+target_pos-> -1 
+cost_b -2 
+cost_a-> -2 
+cost_total-> -1 
+*******************
+dato-> 20053 
+index-> 206 
+position in stack-> 90 
+target_pos-> -1 
+cost_b -2 
+cost_a-> -2 
+cost_total-> -1 
+*******************
+dato-> -14818 
+index-> 34 
+position in stack-> 91 
+target_pos-> -1 
+cost_b -2 
+cost_a-> -2 
+cost_total-> -1 
+*******************
+dato-> -14997 
+index-> 32 
+position in stack-> 92 
+target_pos-> -1 
+cost_b -2 
+cost_a-> -2 
+cost_total-> -1 
+*******************
+dato-> 6862 
+index-> 146 
+position in stack-> 93 
+target_pos-> -1 
+cost_b -2 
+cost_a-> -2 
+cost_total-> -1 
+*******************
+dato-> -1932 
+index-> 86 
+position in stack-> 94 
+target_pos-> -1 
+cost_b -2 
+cost_a-> -2 
+cost_total-> -1 
+*******************
+dato-> 16984 
+index-> 189 
+position in stack-> 95 
+target_pos-> -1 
+cost_b -2 
+cost_a-> -2 
+cost_total-> -1 
+*******************
+dato-> -801 
+index-> 92 
+position in stack-> 96 
+target_pos-> -1 
+cost_b -2 
+cost_a-> -2 
+cost_total-> -1 
+*******************
+dato-> 11583 
+index-> 160 
+position in stack-> 97 
+target_pos-> -1 
+cost_b -2 
+cost_a-> -2 
+cost_total-> -1 
+*******************
+dato-> 2200 
+index-> 125 
+position in stack-> 98 
+target_pos-> -1 
+cost_b -2 
+cost_a-> -2 
+cost_total-> -1 
+*******************
+dato-> 638 
+index-> 112 
+position in stack-> 99 
+target_pos-> -1 
+cost_b -2 
+cost_a-> -2 
+cost_total-> -1 
+*******************
+dato-> 5423 
+index-> 139 
+position in stack-> 100 
+target_pos-> -1 
+cost_b -2 
+cost_a-> -2 
+cost_total-> -1 
+*******************
+dato-> -7287 
+index-> 63 
+position in stack-> 101 
+target_pos-> -1 
+cost_b -2 
+cost_a-> -2 
+cost_total-> -1 
+*******************
+dato-> 20602 
+index-> 209 
+position in stack-> 102 
+target_pos-> -1 
+cost_b -2 
+cost_a-> -2 
+cost_total-> -1 
+*******************
+dato-> 12671 
+index-> 168 
+position in stack-> 103 
+target_pos-> -1 
+cost_b -2 
+cost_a-> -2 
+cost_total-> -1 
+*******************
+dato-> 20975 
+index-> 211 
+position in stack-> 104 
+target_pos-> -1 
+cost_b -2 
+cost_a-> -2 
+cost_total-> -1 
+*******************
+dato-> -13981 
+index-> 40 
+position in stack-> 105 
+target_pos-> -1 
+cost_b -2 
+cost_a-> -2 
+cost_total-> -1 
+*******************
+dato-> -19550 
+index-> 9 
+position in stack-> 106 
+target_pos-> -1 
+cost_b -2 
+cost_a-> -2 
+cost_total-> -1 
+*******************
+dato-> -10009 
+index-> 49 
+position in stack-> 107 
+target_pos-> -1 
+cost_b -2 
+cost_a-> -2 
+cost_total-> -1 
+*******************
+dato-> 4262 
+index-> 133 
+position in stack-> 108 
+target_pos-> -1 
+cost_b -2 
+cost_a-> -2 
+cost_total-> -1 
+*******************
+dato-> 2052 
+index-> 124 
+position in stack-> 109 
+target_pos-> -1 
+cost_b -2 
+cost_a-> -2 
+cost_total-> -1 
+*******************
+dato-> 1764 
+index-> 120 
+position in stack-> 110 
+target_pos-> -1 
+cost_b -2 
+cost_a-> -2 
+cost_total-> -1 
+*******************
+dato-> 19935 
+index-> 205 
+position in stack-> 111 
+target_pos-> -1 
+cost_b -2 
+cost_a-> -2 
+cost_total-> -1 
+*******************
+dato-> -173 
+index-> 96 
+position in stack-> 112 
+target_pos-> -1 
+cost_b -2 
+cost_a-> -2 
+cost_total-> -1 
+*******************
+dato-> -8588 
+index-> 57 
+position in stack-> 113 
+target_pos-> -1 
+cost_b -2 
+cost_a-> -2 
+cost_total-> -1 
+*******************
+dato-> 14343 
+index-> 176 
+position in stack-> 114 
+target_pos-> -1 
+cost_b -2 
+cost_a-> -2 
+cost_total-> -1 
+*******************
+dato-> 21211 
+index-> 212 
+position in stack-> 115 
+target_pos-> -1 
+cost_b -2 
+cost_a-> -2 
+cost_total-> -1 
+*******************
+dato-> -15997 
+index-> 26 
+position in stack-> 116 
+target_pos-> -1 
+cost_b -2 
+cost_a-> -2 
+cost_total-> -1 
+*******************
+dato-> 4962 
+index-> 136 
+position in stack-> 117 
+target_pos-> -1 
+cost_b -2 
+cost_a-> -2 
+cost_total-> -1 
+*******************
+dato-> -9566 
+index-> 52 
+position in stack-> 118 
+target_pos-> -1 
+cost_b -2 
+cost_a-> -2 
+cost_total-> -1 
+*******************
+dato-> 2366 
+index-> 126 
+position in stack-> 119 
+target_pos-> -1 
+cost_b -2 
+cost_a-> -2 
+cost_total-> -1 
+*******************
+dato-> 2813 
+index-> 127 
+position in stack-> 120 
+target_pos-> -1 
+cost_b -2 
+cost_a-> -2 
+cost_total-> -1 
+*******************
+dato-> -19073 
+index-> 11 
+position in stack-> 121 
+target_pos-> -1 
+cost_b -2 
+cost_a-> -2 
+cost_total-> -1 
+*******************
+dato-> -19818 
+index-> 6 
+position in stack-> 122 
+target_pos-> -1 
+cost_b -2 
+cost_a-> -2 
+cost_total-> -1 
+*******************
+dato-> -19393 
+index-> 10 
+position in stack-> 123 
+target_pos-> -1 
+cost_b -2 
+cost_a-> -2 
+cost_total-> -1 
+*******************
+dato-> 13799 
+index-> 174 
+position in stack-> 124 
+target_pos-> -1 
+cost_b -2 
+cost_a-> -2 
+cost_total-> -1 
+*******************
+dato-> -7951 
+index-> 60 
+position in stack-> 125 
+target_pos-> -1 
+cost_b -2 
+cost_a-> -2 
+cost_total-> -1 
+*******************
+dato-> 15478 
+index-> 182 
+position in stack-> 126 
+target_pos-> -1 
+cost_b -2 
+cost_a-> -2 
+cost_total-> -1 
+*******************
+dato-> 11615 
+index-> 162 
+position in stack-> 127 
+target_pos-> -1 
+cost_b -2 
+cost_a-> -2 
+cost_total-> -1 
+*******************
+dato-> 18642 
+index-> 195 
+position in stack-> 128 
+target_pos-> -1 
+cost_b -2 
+cost_a-> -2 
+cost_total-> -1 
+*******************
+dato-> 12900 
+index-> 171 
+position in stack-> 129 
+target_pos-> -1 
+cost_b -2 
+cost_a-> -2 
+cost_total-> -1 
+*******************
+dato-> -16628 
+index-> 18 
+position in stack-> 130 
+target_pos-> -1 
+cost_b -2 
+cost_a-> -2 
+cost_total-> -1 
+*******************
+dato-> 20240 
+index-> 207 
+position in stack-> 131 
+target_pos-> -1 
+cost_b -2 
+cost_a-> -2 
+cost_total-> -1 
+*******************
+dato-> 1251 
+index-> 116 
+position in stack-> 132 
+target_pos-> -1 
+cost_b -2 
+cost_a-> -2 
+cost_total-> -1 
+*******************
+dato-> 20908 
+index-> 210 
+position in stack-> 133 
+target_pos-> -1 
+cost_b -2 
+cost_a-> -2 
+cost_total-> -1 
+*******************
+dato-> 19378 
+index-> 200 
+position in stack-> 134 
+target_pos-> -1 
+cost_b -2 
+cost_a-> -2 
+cost_total-> -1 
+*******************
+dato-> -3758 
+index-> 82 
+position in stack-> 135 
+target_pos-> -1 
+cost_b -2 
+cost_a-> -2 
+cost_total-> -1 
+*******************
+dato-> -19721 
+index-> 7 
+position in stack-> 136 
+target_pos-> -1 
+cost_b -2 
+cost_a-> -2 
+cost_total-> -1 
+*******************
+dato-> 15584 
+index-> 184 
+position in stack-> 137 
+target_pos-> -1 
+cost_b -2 
+cost_a-> -2 
+cost_total-> -1 
+*******************
+dato-> 650 
+index-> 113 
+position in stack-> 138 
+target_pos-> -1 
+cost_b -2 
+cost_a-> -2 
+cost_total-> -1 
+*******************
+dato-> 16816 
+index-> 188 
+position in stack-> 139 
+target_pos-> -1 
+cost_b -2 
+cost_a-> -2 
+cost_total-> -1 
+*******************
+dato-> -9168 
+index-> 53 
+position in stack-> 140 
+target_pos-> -1 
+cost_b -2 
+cost_a-> -2 
+cost_total-> -1 
+*******************
+dato-> 15007 
+index-> 179 
+position in stack-> 141 
+target_pos-> -1 
+cost_b -2 
+cost_a-> -2 
+cost_total-> -1 
+*******************
+dato-> 12733 
+index-> 169 
+position in stack-> 142 
+target_pos-> -1 
+cost_b -2 
+cost_a-> -2 
+cost_total-> -1 
+*******************
+dato-> 19778 
+index-> 203 
+position in stack-> 143 
+target_pos-> -1 
+cost_b -2 
+cost_a-> -2 
+cost_total-> -1 
+*******************
+dato-> -14653 
+index-> 37 
+position in stack-> 144 
+target_pos-> -1 
+cost_b -2 
+cost_a-> -2 
+cost_total-> -1 
+*******************
+dato-> 11753 
+index-> 164 
+position in stack-> 145 
+target_pos-> -1 
+cost_b -2 
+cost_a-> -2 
+cost_total-> -1 
+*******************
+dato-> 9106 
+index-> 153 
+position in stack-> 146 
+target_pos-> -1 
+cost_b -2 
+cost_a-> -2 
+cost_total-> -1 
+*******************
+dato-> 5081 
+index-> 137 
+position in stack-> 147 
+target_pos-> -1 
+cost_b -2 
+cost_a-> -2 
+cost_total-> -1 
+*******************
+dato-> 16327 
+index-> 186 
+position in stack-> 148 
+target_pos-> -1 
+cost_b -2 
+cost_a-> -2 
+cost_total-> -1 
+*******************
+dato-> 7911 
+index-> 149 
+position in stack-> 149 
+target_pos-> -1 
+cost_b -2 
+cost_a-> -2 
+cost_total-> -1 
+*******************
+dato-> -7971 
+index-> 59 
+position in stack-> 150 
+target_pos-> -1 
+cost_b -2 
+cost_a-> -2 
+cost_total-> -1 
+*******************
+dato-> -3961 
+index-> 78 
+position in stack-> 151 
+target_pos-> -1 
+cost_b -2 
+cost_a-> -2 
+cost_total-> -1 
+*******************
+dato-> -7177 
+index-> 65 
+position in stack-> 152 
+target_pos-> -1 
+cost_b -2 
+cost_a-> -2 
+cost_total-> -1 
+*******************
+dato-> -4099 
+index-> 77 
+position in stack-> 153 
+target_pos-> -1 
+cost_b -2 
+cost_a-> -2 
+cost_total-> -1 
+*******************
+dato-> -19563 
+index-> 8 
+position in stack-> 154 
+target_pos-> -1 
+cost_b -2 
+cost_a-> -2 
+cost_total-> -1 
+*******************
+dato-> 16419 
+index-> 187 
+position in stack-> 155 
+target_pos-> -1 
+cost_b -2 
+cost_a-> -2 
+cost_total-> -1 
+*******************
+dato-> 19346 
+index-> 199 
+position in stack-> 156 
+target_pos-> -1 
+cost_b -2 
+cost_a-> -2 
+cost_total-> -1 
+*******************
+dato-> 17718 
+index-> 192 
+position in stack-> 157 
+target_pos-> -1 
+cost_b -2 
+cost_a-> -2 
+cost_total-> -1 
+*******************
+dato-> -9991 
+index-> 50 
+position in stack-> 158 
+target_pos-> -1 
+cost_b -2 
+cost_a-> -2 
+cost_total-> -1 
+*******************
+dato-> 7592 
+index-> 148 
+position in stack-> 159 
+target_pos-> -1 
+cost_b -2 
+cost_a-> -2 
+cost_total-> -1 
+*******************
+dato-> -1459 
+index-> 87 
+position in stack-> 160 
+target_pos-> -1 
+cost_b -2 
+cost_a-> -2 
+cost_total-> -1 
+*******************
+dato-> -6199 
+index-> 67 
+position in stack-> 161 
+target_pos-> -1 
+cost_b -2 
+cost_a-> -2 
+cost_total-> -1 
+*******************
+dato-> -19829 
+index-> 5 
+position in stack-> 162 
+target_pos-> -1 
+cost_b -2 
+cost_a-> -2 
+cost_total-> -1 
+*******************
+dato-> 19759 
+index-> 201 
+position in stack-> 163 
+target_pos-> -1 
+cost_b -2 
+cost_a-> -2 
+cost_total-> -1 
+*******************
+dato-> -1446 
+index-> 88 
+position in stack-> 164 
+target_pos-> -1 
+cost_b -2 
+cost_a-> -2 
+cost_total-> -1 
+*******************
+dato-> 12933 
+index-> 172 
+position in stack-> 165 
+target_pos-> -1 
+cost_b -2 
+cost_a-> -2 
+cost_total-> -1 
+*******************
+dato-> 13191 
+index-> 173 
+position in stack-> 166 
+target_pos-> -1 
+cost_b -2 
+cost_a-> -2 
+cost_total-> -1 
+*******************
+dato-> -16659 
+index-> 17 
+position in stack-> 167 
+target_pos-> -1 
+cost_b -2 
+cost_a-> -2 
+cost_total-> -1 
+*******************
+dato-> 4482 
+index-> 135 
+position in stack-> 168 
+target_pos-> -1 
+cost_b -2 
+cost_a-> -2 
+cost_total-> -1 
+*******************
+dato-> -3917 
+index-> 79 
+position in stack-> 169 
+target_pos-> -1 
+cost_b -2 
+cost_a-> -2 
+cost_total-> -1 
+*******************
+dato-> 6178 
+index-> 143 
+position in stack-> 170 
+target_pos-> -1 
+cost_b -2 
+cost_a-> -2 
+cost_total-> -1 
+*******************
+dato-> 5733 
+index-> 141 
+position in stack-> 171 
+target_pos-> -1 
+cost_b -2 
+cost_a-> -2 
+cost_total-> -1 
+*******************
+dato-> 3499 
+index-> 131 
+position in stack-> 172 
+target_pos-> -1 
+cost_b -2 
+cost_a-> -2 
+cost_total-> -1 
+*******************
+dato-> -9007 
+index-> 54 
+position in stack-> 173 
+target_pos-> -1 
+cost_b -2 
+cost_a-> -2 
+cost_total-> -1 
+*******************
+dato-> -15437 
+index-> 30 
+position in stack-> 174 
+target_pos-> -1 
+cost_b -2 
+cost_a-> -2 
+cost_total-> -1 
+*******************
+dato-> 8729 
+index-> 151 
+position in stack-> 175 
+target_pos-> -1 
+cost_b -2 
+cost_a-> -2 
+cost_total-> -1 
+*******************
+dato-> -15104 
+index-> 31 
+position in stack-> 176 
+target_pos-> -1 
+cost_b -2 
+cost_a-> -2 
+cost_total-> -1 
+*******************
+dato-> -4311 
+index-> 76 
+position in stack-> 177 
+target_pos-> -1 
+cost_b -2 
+cost_a-> -2 
+cost_total-> -1 
+*******************
+dato-> 287 
+index-> 111 
+position in stack-> 178 
+target_pos-> -1 
+cost_b -2 
+cost_a-> -2 
+cost_total-> -1 
+*******************
+dato-> -940 
+index-> 90 
+position in stack-> 179 
+target_pos-> -1 
+cost_b -2 
+cost_a-> -2 
+cost_total-> -1 
+*******************
+dato-> 1561 
+index-> 118 
+position in stack-> 180 
+target_pos-> -1 
+cost_b -2 
+cost_a-> -2 
+cost_total-> -1 
+*******************
+dato-> 19772 
+index-> 202 
+position in stack-> 181 
+target_pos-> -1 
+cost_b -2 
+cost_a-> -2 
+cost_total-> -1 
+*******************
+dato-> 21262 
+index-> 213 
+position in stack-> 182 
+target_pos-> -1 
+cost_b -2 
+cost_a-> -2 
+cost_total-> -1 
+*******************
+dato-> -17902 
+index-> 12 
+position in stack-> 183 
+target_pos-> -1 
+cost_b -2 
+cost_a-> -2 
+cost_total-> -1 
+*******************
+dato-> -3826 
+index-> 81 
+position in stack-> 184 
+target_pos-> -1 
+cost_b -2 
+cost_a-> -2 
+cost_total-> -1 
+*******************
+dato-> -7196 
+index-> 64 
+position in stack-> 185 
+target_pos-> -1 
+cost_b -2 
+cost_a-> -2 
+cost_total-> -1 
+*******************
+dato-> 18873 
+index-> 196 
+position in stack-> 186 
+target_pos-> -1 
+cost_b -2 
+cost_a-> -2 
+cost_total-> -1 
+*******************
+dato-> -8148 
+index-> 58 
+position in stack-> 187 
+target_pos-> -1 
+cost_b -2 
+cost_a-> -2 
+cost_total-> -1 
+*******************
+dato-> -10343 
+index-> 47 
+position in stack-> 188 
+target_pos-> -1 
+cost_b -2 
+cost_a-> -2 
+cost_total-> -1 
+*******************
+dato-> -16368 
+index-> 20 
+position in stack-> 189 
+target_pos-> -1 
+cost_b -2 
+cost_a-> -2 
+cost_total-> -1 
+*******************
+dato-> 686 
+index-> 114 
+position in stack-> 190 
+target_pos-> -1 
+cost_b -2 
+cost_a-> -2 
+cost_total-> -1 
+*******************
+dato-> -5583 
+index-> 69 
+position in stack-> 191 
+target_pos-> -1 
+cost_b -2 
+cost_a-> -2 
+cost_total-> -1 
+*******************
+dato-> -12323 
+index-> 43 
+position in stack-> 192 
+target_pos-> -1 
+cost_b -2 
+cost_a-> -2 
+cost_total-> -1 
+*******************
+dato-> -14828 
+index-> 33 
+position in stack-> 193 
+target_pos-> -1 
+cost_b -2 
+cost_a-> -2 
+cost_total-> -1 
+*******************
+dato-> 1680 
+index-> 119 
+position in stack-> 194 
+target_pos-> -1 
+cost_b -2 
+cost_a-> -2 
+cost_total-> -1 
+*******************
+dato-> -850 
+index-> 91 
+position in stack-> 195 
+target_pos-> -1 
+cost_b -2 
+cost_a-> -2 
+cost_total-> -1 
+*******************
+dato-> 2049 
+index-> 123 
+position in stack-> 196 
+target_pos-> -1 
+cost_b -2 
+cost_a-> -2 
+cost_total-> -1 
+*******************
+dato-> 6938 
+index-> 147 
+position in stack-> 197 
+target_pos-> -1 
+cost_b -2 
+cost_a-> -2 
+cost_total-> -1 
+*******************
+dato-> 17068 
+index-> 190 
+position in stack-> 198 
+target_pos-> -1 
+cost_b -2 
+cost_a-> -2 
+cost_total-> -1 
+*******************
+dato-> -4834 
+index-> 71 
+position in stack-> 199 
+target_pos-> -1 
+cost_b -2 
+cost_a-> -2 
+cost_total-> -1 
+*******************
+dato-> 11674 
+index-> 163 
+position in stack-> 200 
+target_pos-> -1 
+cost_b -2 
+cost_a-> -2 
+cost_total-> -1 
+*******************
+dato-> 18343 
+index-> 194 
+position in stack-> 201 
+target_pos-> -1 
+cost_b -2 
+cost_a-> -2 
+cost_total-> -1 
+*******************
+dato-> 4444 
+index-> 134 
+position in stack-> 202 
+target_pos-> -1 
+cost_b -2 
+cost_a-> -2 
+cost_total-> -1 
+*******************
+dato-> 15530 
+index-> 183 
+position in stack-> 203 
+target_pos-> -1 
+cost_b -2 
+cost_a-> -2 
+cost_total-> -1 
+*******************
+dato-> 15608 
+index-> 185 
+position in stack-> 204 
+target_pos-> -1 
+cost_b -2 
+cost_a-> -2 
+cost_total-> -1 
+*******************
+dato-> 10070 
+index-> 154 
+position in stack-> 205 
+target_pos-> -1 
+cost_b -2 
+cost_a-> -2 
+cost_total-> -1 
+*******************
+dato-> -11413 
+index-> 44 
+position in stack-> 206 
+target_pos-> -1 
+cost_b -2 
+cost_a-> -2 
+cost_total-> -1 
+*******************
+dato-> 1006 
+index-> 115 
+position in stack-> 207 
+target_pos-> -1 
+cost_b -2 
+cost_a-> -2 
+cost_total-> -1 
+*******************
+dato-> 10177 
+index-> 155 
+position in stack-> 208 
+target_pos-> -1 
+cost_b -2 
+cost_a-> -2 
+cost_total-> -1 
+*******************
+dato-> 1999 
+index-> 122 
+position in stack-> 209 
+target_pos-> -1 
+cost_b -2 
+cost_a-> -2 
+cost_total-> -1 
+*******************
+dato-> -1223 
+index-> 89 
+position in stack-> 210 
+target_pos-> -1 
+cost_b -2 
+cost_a-> -2 
+cost_total-> -1 
+*******************
+dato-> 19058 
+index-> 197 
+position in stack-> 211 
+target_pos-> -1 
+cost_b -2 
+cost_a-> -2 
+cost_total-> -1 
+*******************
+dato-> -8895 
+index-> 56 
+position in stack-> 212 
+target_pos-> -1 
+cost_b -2 
+cost_a-> -2 
+cost_total-> -1 
++++++++++++++++++++++++++++Stack b:
+size b:0
+lista vacia 
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+ra
+pb
+ra
+ra
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+ra
+pb
+pb
+pb
+pb
+ra
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+ra
+pb
+ra
+ra
+ra
+ra
+ra
+ra
+ra
+ra
+ra
+pb
+pb
+ra
+ra
+ra
+ra
+pb
+ra
+pb
+ra
+pb
+ra
+ra
+ra
+ra
+pb
+pb
+pb
+ra
+pb
+ra
+pb
+pb
+ra
+ra
+ra
+ra
+ra
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+ra
+ra
+pb
+ra
+ra
+pb
+pb
+pb
+pb
+pb
+pb
+ra
+pb
+pb
+ra
+pb
+ra
+pb
+ra
+ra
+ra
+ra
+pb
+ra
+ra
+ra
+pb
+pb
+pb
+ra
+ra
+ra
+ra
+pb
+pb
+ra
+ra
+pb
+ra
+pb
+ra
+ra
+pb
+pb
+pb
+ra
+pb
+ra
+ra
+ra
+ra
+pb
+ra
+ra
+ra
+ra
+pb
+pb
+ra
+ra
+ra
+pb
+ra
+ra
+ra
+pb
+ra
+ra
+ra
+ra
+ra
+pb
+pb
+pb
+pb
+pb
+ra
+ra
+ra
+pb
+ra
+pb
+pb
+pb
+ra
+pb
+ra
+ra
+pb
+ra
+pb
+ra
+ra
+ra
+pb
+pb
+ra
+pb
+pb
+ra
+pb
+ra
+ra
+ra
+pb
+pb
+pb
+ra
+pb
+pb
+pb
+ra
+pb
+pb
+pb
+ra
+pb
+ra
+ra
+ra
+pb
+ra
+ra
+ra
+ra
+ra
+ra
+pb
+ra
+ra
+ra
+pb
+ra
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+sa
+el size_b es = 210
+el size_a es = 3
+Entra en calculo de costes
+Entra en calculo de costes
+Entra en calculo de costes
+Entra en calculo de costes
+Entra en calculo de costes
+Entra en calculo de costes
+Entra en calculo de costes
+Entra en calculo de costes
+Entra en calculo de costes
+Entra en calculo de costes
+Entra en calculo de costes
+Entra en calculo de costes
+Entra en calculo de costes
+Entra en calculo de costes
+Entra en calculo de costes
+Entra en calculo de costes
+Entra en calculo de costes
+Entra en calculo de costes
+Entra en calculo de costes
+Entra en calculo de costes
+Entra en calculo de costes
+Entra en calculo de costes
+Entra en calculo de costes
+Entra en calculo de costes
+Entra en calculo de costes
+Entra en calculo de costes
+Entra en calculo de costes
+Entra en calculo de costes
+Entra en calculo de costes
+Entra en calculo de costes
+Entra en calculo de costes
+Entra en calculo de costes
+Entra en calculo de costes
+Entra en calculo de costes
+Entra en calculo de costes
+Entra en calculo de costes
+Entra en calculo de costes
+Entra en calculo de costes
+Entra en calculo de costes
+Entra en calculo de costes
+Entra en calculo de costes
+Entra en calculo de costes
+Entra en calculo de costes
+Entra en calculo de costes
+Entra en calculo de costes
+Entra en calculo de costes
+Entra en calculo de costes
+Entra en calculo de costes
+Entra en calculo de costes
+Entra en calculo de costes
+Entra en calculo de costes
+Entra en calculo de costes
+Entra en calculo de costes
+Entra en calculo de costes
+Entra en calculo de costes
+Entra en calculo de costes
+Entra en calculo de costes
+Entra en calculo de costes
+Entra en calculo de costes
+Entra en calculo de costes
+Entra en calculo de costes
+Entra en calculo de costes
+Entra en calculo de costes
+Entra en calculo de costes
+Entra en calculo de costes
+Entra en calculo de costes
+Entra en calculo de costes
+Entra en calculo de costes
+Entra en calculo de costes
+Entra en calculo de costes
+Entra en calculo de costes
+Entra en calculo de costes
+Entra en calculo de costes
+Entra en calculo de costes
+Entra en calculo de costes
+Entra en calculo de costes
+Entra en calculo de costes
+Entra en calculo de costes
+Entra en calculo de costes
+Entra en calculo de costes
+Entra en calculo de costes
+Entra en calculo de costes
+Entra en calculo de costes
+Entra en calculo de costes
+Entra en calculo de costes
+Entra en calculo de costes
+Entra en calculo de costes
+Entra en calculo de costes
+Entra en calculo de costes
+Entra en calculo de costes
+Entra en calculo de costes
+Entra en calculo de costes
+Entra en calculo de costes
+Entra en calculo de costes
+Entra en calculo de costes
+Entra en calculo de costes
+Entra en calculo de costes
+Entra en calculo de costes
+Entra en calculo de costes
+Entra en calculo de costes
+Entra en calculo de costes
+Entra en calculo de costes
+Entra en calculo de costes
+Entra en calculo de costes
+Entra en calculo de costes
+Entra en calculo de costes
+Entra en calculo de costes
+Entra en calculo de costes
+Entra en calculo de costes
+Entra en calculo de costes
+Entra en calculo de costes
+Entra en calculo de costes
+Entra en calculo de costes
+Entra en calculo de costes
+Entra en calculo de costes
+Entra en calculo de costes
+Entra en calculo de costes
+Entra en calculo de costes
+Entra en calculo de costes
+Entra en calculo de costes
+Entra en calculo de costes
+Entra en calculo de costes
+Entra en calculo de costes
+Entra en calculo de costes
+Entra en calculo de costes
+Entra en calculo de costes
+Entra en calculo de costes
+Entra en calculo de costes
+Entra en calculo de costes
+Entra en calculo de costes
+Entra en calculo de costes
+Entra en calculo de costes
+Entra en calculo de costes
+Entra en calculo de costes
+Entra en calculo de costes
+Entra en calculo de costes
+Entra en calculo de costes
+Entra en calculo de costes
+Entra en calculo de costes
+Entra en calculo de costes
+Entra en calculo de costes
+Entra en calculo de costes
+Entra en calculo de costes
+Entra en calculo de costes
+Entra en calculo de costes
+Entra en calculo de costes
+Entra en calculo de costes
+Entra en calculo de costes
+Entra en calculo de costes
+Entra en calculo de costes
+Entra en calculo de costes
+Entra en calculo de costes
+Entra en calculo de costes
+Entra en calculo de costes
+Entra en calculo de costes
+Entra en calculo de costes
+Entra en calculo de costes
+Entra en calculo de costes
+Entra en calculo de costes
+Entra en calculo de costes
+Entra en calculo de costes
+Entra en calculo de costes
+Entra en calculo de costes
+Entra en calculo de costes
+Entra en calculo de costes
+Entra en calculo de costes
+Entra en calculo de costes
+Entra en calculo de costes
+Entra en calculo de costes
+Entra en calculo de costes
+Entra en calculo de costes
+Entra en calculo de costes
+Entra en calculo de costes
+Entra en calculo de costes
+Entra en calculo de costes
+Entra en calculo de costes
+Entra en calculo de costes
+Entra en calculo de costes
+Entra en calculo de costes
+Entra en calculo de costes
+Entra en calculo de costes
+Entra en calculo de costes
+Entra en calculo de costes
+Entra en calculo de costes
+Entra en calculo de costes
+Entra en calculo de costes
+Entra en calculo de costes
+Entra en calculo de costes
+Entra en calculo de costes
+Entra en calculo de costes
+Entra en calculo de costes
+Entra en calculo de costes
+Entra en calculo de costes
+Entra en calculo de costes
+Entra en calculo de costes
+Entra en calculo de costes
+Entra en calculo de costes
+Entra en calculo de costes
+Entra en calculo de costes
+Entra en calculo de costes
+Entra en calculo de costes
+Entra en calculo de costes
+Entra en calculo de costes
+Entra en calculo de costes
+Entra en calculo de costes
+Entra en calculo de costes
+Entra en calculo de costes
+Entra en calculo de costes
+Entra en calculo de costes
+Entra en calculo de costes
++++++++++++++++++++++++++++++Stack a :
+size a:3
+*******************
+dato-> 1999 
+index-> 122 
+position in stack-> 0 
+target_pos-> -1 
+cost_b -2 
+cost_a-> -2 
+cost_total-> -1 
+*******************
+dato-> 10177 
+index-> 155 
+position in stack-> 1 
+target_pos-> -1 
+cost_b -2 
+cost_a-> -2 
+cost_total-> -1 
+*******************
+dato-> 19058 
+index-> 197 
+position in stack-> 2 
+target_pos-> -1 
+cost_b -2 
+cost_a-> -2 
+cost_total-> -1 
+++++++++++++++++++++++++++++++Stack b:
+size b:210
+*******************
+dato-> 1006 
+index-> 115 
+position in stack-> 0 
+target_pos-> 0 
+cost_b 0 
+cost_a-> 0 
+cost_total-> 0 
+*******************
+dato-> 10070 
+index-> 154 
+position in stack-> 1 
+target_pos-> 1 
+cost_b 1 
+cost_a-> 1 
+cost_total-> 2 
+*******************
+dato-> 15608 
+index-> 185 
+position in stack-> 2 
+target_pos-> 2 
+cost_b 2 
+cost_a-> -1 
+cost_total-> 3 
+*******************
+dato-> 15530 
+index-> 183 
+position in stack-> 3 
+target_pos-> 2 
+cost_b 3 
+cost_a-> -1 
+cost_total-> 4 
+*******************
+dato-> 4444 
+index-> 134 
+position in stack-> 4 
+target_pos-> 1 
+cost_b 4 
+cost_a-> 1 
+cost_total-> 5 
+*******************
+dato-> 18343 
+index-> 194 
+position in stack-> 5 
+target_pos-> 2 
+cost_b 5 
+cost_a-> -1 
+cost_total-> 6 
+*******************
+dato-> 11674 
+index-> 163 
+position in stack-> 6 
+target_pos-> 2 
+cost_b 6 
+cost_a-> -1 
+cost_total-> 7 
+*******************
+dato-> 17068 
+index-> 190 
+position in stack-> 7 
+target_pos-> 2 
+cost_b 7 
+cost_a-> -1 
+cost_total-> 8 
+*******************
+dato-> 6938 
+index-> 147 
+position in stack-> 8 
+target_pos-> 1 
+cost_b 8 
+cost_a-> 1 
+cost_total-> 9 
+*******************
+dato-> 2049 
+index-> 123 
+position in stack-> 9 
+target_pos-> 1 
+cost_b 9 
+cost_a-> 1 
+cost_total-> 10 
+*******************
+dato-> 1680 
+index-> 119 
+position in stack-> 10 
+target_pos-> 0 
+cost_b 10 
+cost_a-> 0 
+cost_total-> 10 
+*******************
+dato-> 686 
+index-> 114 
+position in stack-> 11 
+target_pos-> 0 
+cost_b 11 
+cost_a-> 0 
+cost_total-> 11 
+*******************
+dato-> 18873 
+index-> 196 
+position in stack-> 12 
+target_pos-> 2 
+cost_b 12 
+cost_a-> -1 
+cost_total-> 13 
+*******************
+dato-> 21262 
+index-> 213 
+position in stack-> 13 
+target_pos-> 0 
+cost_b 13 
+cost_a-> 0 
+cost_total-> 13 
+*******************
+dato-> 19772 
+index-> 202 
+position in stack-> 14 
+target_pos-> 0 
+cost_b 14 
+cost_a-> 0 
+cost_total-> 14 
+*******************
+dato-> 1561 
+index-> 118 
+position in stack-> 15 
+target_pos-> 0 
+cost_b 15 
+cost_a-> 0 
+cost_total-> 15 
+*******************
+dato-> 287 
+index-> 111 
+position in stack-> 16 
+target_pos-> 0 
+cost_b 16 
+cost_a-> 0 
+cost_total-> 16 
+*******************
+dato-> 8729 
+index-> 151 
+position in stack-> 17 
+target_pos-> 1 
+cost_b 17 
+cost_a-> 1 
+cost_total-> 18 
+*******************
+dato-> 3499 
+index-> 131 
+position in stack-> 18 
+target_pos-> 1 
+cost_b 18 
+cost_a-> 1 
+cost_total-> 19 
+*******************
+dato-> 5733 
+index-> 141 
+position in stack-> 19 
+target_pos-> 1 
+cost_b 19 
+cost_a-> 1 
+cost_total-> 20 
+*******************
+dato-> 6178 
+index-> 143 
+position in stack-> 20 
+target_pos-> 1 
+cost_b 20 
+cost_a-> 1 
+cost_total-> 21 
+*******************
+dato-> 4482 
+index-> 135 
+position in stack-> 21 
+target_pos-> 1 
+cost_b 21 
+cost_a-> 1 
+cost_total-> 22 
+*******************
+dato-> 13191 
+index-> 173 
+position in stack-> 22 
+target_pos-> 2 
+cost_b 22 
+cost_a-> -1 
+cost_total-> 23 
+*******************
+dato-> 12933 
+index-> 172 
+position in stack-> 23 
+target_pos-> 2 
+cost_b 23 
+cost_a-> -1 
+cost_total-> 24 
+*******************
+dato-> 19759 
+index-> 201 
+position in stack-> 24 
+target_pos-> 0 
+cost_b 24 
+cost_a-> 0 
+cost_total-> 24 
+*******************
+dato-> 7592 
+index-> 148 
+position in stack-> 25 
+target_pos-> 1 
+cost_b 25 
+cost_a-> 1 
+cost_total-> 26 
+*******************
+dato-> 17718 
+index-> 192 
+position in stack-> 26 
+target_pos-> 2 
+cost_b 26 
+cost_a-> -1 
+cost_total-> 27 
+*******************
+dato-> 19346 
+index-> 199 
+position in stack-> 27 
+target_pos-> 0 
+cost_b 27 
+cost_a-> 0 
+cost_total-> 27 
+*******************
+dato-> 16419 
+index-> 187 
+position in stack-> 28 
+target_pos-> 2 
+cost_b 28 
+cost_a-> -1 
+cost_total-> 29 
+*******************
+dato-> 7911 
+index-> 149 
+position in stack-> 29 
+target_pos-> 1 
+cost_b 29 
+cost_a-> 1 
+cost_total-> 30 
+*******************
+dato-> 16327 
+index-> 186 
+position in stack-> 30 
+target_pos-> 2 
+cost_b 30 
+cost_a-> -1 
+cost_total-> 31 
+*******************
+dato-> 5081 
+index-> 137 
+position in stack-> 31 
+target_pos-> 1 
+cost_b 31 
+cost_a-> 1 
+cost_total-> 32 
+*******************
+dato-> 9106 
+index-> 153 
+position in stack-> 32 
+target_pos-> 1 
+cost_b 32 
+cost_a-> 1 
+cost_total-> 33 
+*******************
+dato-> 11753 
+index-> 164 
+position in stack-> 33 
+target_pos-> 2 
+cost_b 33 
+cost_a-> -1 
+cost_total-> 34 
+*******************
+dato-> 19778 
+index-> 203 
+position in stack-> 34 
+target_pos-> 0 
+cost_b 34 
+cost_a-> 0 
+cost_total-> 34 
+*******************
+dato-> 12733 
+index-> 169 
+position in stack-> 35 
+target_pos-> 2 
+cost_b 35 
+cost_a-> -1 
+cost_total-> 36 
+*******************
+dato-> 15007 
+index-> 179 
+position in stack-> 36 
+target_pos-> 2 
+cost_b 36 
+cost_a-> -1 
+cost_total-> 37 
+*******************
+dato-> 16816 
+index-> 188 
+position in stack-> 37 
+target_pos-> 2 
+cost_b 37 
+cost_a-> -1 
+cost_total-> 38 
+*******************
+dato-> 650 
+index-> 113 
+position in stack-> 38 
+target_pos-> 0 
+cost_b 38 
+cost_a-> 0 
+cost_total-> 38 
+*******************
+dato-> 15584 
+index-> 184 
+position in stack-> 39 
+target_pos-> 2 
+cost_b 39 
+cost_a-> -1 
+cost_total-> 40 
+*******************
+dato-> 19378 
+index-> 200 
+position in stack-> 40 
+target_pos-> 0 
+cost_b 40 
+cost_a-> 0 
+cost_total-> 40 
+*******************
+dato-> 20908 
+index-> 210 
+position in stack-> 41 
+target_pos-> 0 
+cost_b 41 
+cost_a-> 0 
+cost_total-> 41 
+*******************
+dato-> 1251 
+index-> 116 
+position in stack-> 42 
+target_pos-> 0 
+cost_b 42 
+cost_a-> 0 
+cost_total-> 42 
+*******************
+dato-> 20240 
+index-> 207 
+position in stack-> 43 
+target_pos-> 0 
+cost_b 43 
+cost_a-> 0 
+cost_total-> 43 
+*******************
+dato-> 12900 
+index-> 171 
+position in stack-> 44 
+target_pos-> 2 
+cost_b 44 
+cost_a-> -1 
+cost_total-> 45 
+*******************
+dato-> 18642 
+index-> 195 
+position in stack-> 45 
+target_pos-> 2 
+cost_b 45 
+cost_a-> -1 
+cost_total-> 46 
+*******************
+dato-> 11615 
+index-> 162 
+position in stack-> 46 
+target_pos-> 2 
+cost_b 46 
+cost_a-> -1 
+cost_total-> 47 
+*******************
+dato-> 15478 
+index-> 182 
+position in stack-> 47 
+target_pos-> 2 
+cost_b 47 
+cost_a-> -1 
+cost_total-> 48 
+*******************
+dato-> 13799 
+index-> 174 
+position in stack-> 48 
+target_pos-> 2 
+cost_b 48 
+cost_a-> -1 
+cost_total-> 49 
+*******************
+dato-> 2813 
+index-> 127 
+position in stack-> 49 
+target_pos-> 1 
+cost_b 49 
+cost_a-> 1 
+cost_total-> 50 
+*******************
+dato-> 2366 
+index-> 126 
+position in stack-> 50 
+target_pos-> 1 
+cost_b 50 
+cost_a-> 1 
+cost_total-> 51 
+*******************
+dato-> 4962 
+index-> 136 
+position in stack-> 51 
+target_pos-> 1 
+cost_b 51 
+cost_a-> 1 
+cost_total-> 52 
+*******************
+dato-> 21211 
+index-> 212 
+position in stack-> 52 
+target_pos-> 0 
+cost_b 52 
+cost_a-> 0 
+cost_total-> 52 
+*******************
+dato-> 14343 
+index-> 176 
+position in stack-> 53 
+target_pos-> 2 
+cost_b 53 
+cost_a-> -1 
+cost_total-> 54 
+*******************
+dato-> 19935 
+index-> 205 
+position in stack-> 54 
+target_pos-> 0 
+cost_b 54 
+cost_a-> 0 
+cost_total-> 54 
+*******************
+dato-> 1764 
+index-> 120 
+position in stack-> 55 
+target_pos-> 0 
+cost_b 55 
+cost_a-> 0 
+cost_total-> 55 
+*******************
+dato-> 2052 
+index-> 124 
+position in stack-> 56 
+target_pos-> 1 
+cost_b 56 
+cost_a-> 1 
+cost_total-> 57 
+*******************
+dato-> 4262 
+index-> 133 
+position in stack-> 57 
+target_pos-> 1 
+cost_b 57 
+cost_a-> 1 
+cost_total-> 58 
+*******************
+dato-> 20975 
+index-> 211 
+position in stack-> 58 
+target_pos-> 0 
+cost_b 58 
+cost_a-> 0 
+cost_total-> 58 
+*******************
+dato-> 12671 
+index-> 168 
+position in stack-> 59 
+target_pos-> 2 
+cost_b 59 
+cost_a-> -1 
+cost_total-> 60 
+*******************
+dato-> 20602 
+index-> 209 
+position in stack-> 60 
+target_pos-> 0 
+cost_b 60 
+cost_a-> 0 
+cost_total-> 60 
+*******************
+dato-> 5423 
+index-> 139 
+position in stack-> 61 
+target_pos-> 1 
+cost_b 61 
+cost_a-> 1 
+cost_total-> 62 
+*******************
+dato-> 638 
+index-> 112 
+position in stack-> 62 
+target_pos-> 0 
+cost_b 62 
+cost_a-> 0 
+cost_total-> 62 
+*******************
+dato-> 2200 
+index-> 125 
+position in stack-> 63 
+target_pos-> 1 
+cost_b 63 
+cost_a-> 1 
+cost_total-> 64 
+*******************
+dato-> 11583 
+index-> 160 
+position in stack-> 64 
+target_pos-> 2 
+cost_b 64 
+cost_a-> -1 
+cost_total-> 65 
+*******************
+dato-> 16984 
+index-> 189 
+position in stack-> 65 
+target_pos-> 2 
+cost_b 65 
+cost_a-> -1 
+cost_total-> 66 
+*******************
+dato-> 6862 
+index-> 146 
+position in stack-> 66 
+target_pos-> 1 
+cost_b 66 
+cost_a-> 1 
+cost_total-> 67 
+*******************
+dato-> 20053 
+index-> 206 
+position in stack-> 67 
+target_pos-> 0 
+cost_b 67 
+cost_a-> 0 
+cost_total-> 67 
+*******************
+dato-> 19175 
+index-> 198 
+position in stack-> 68 
+target_pos-> 0 
+cost_b 68 
+cost_a-> 0 
+cost_total-> 68 
+*******************
+dato-> 5266 
+index-> 138 
+position in stack-> 69 
+target_pos-> 1 
+cost_b 69 
+cost_a-> 1 
+cost_total-> 70 
+*******************
+dato-> 12132 
+index-> 167 
+position in stack-> 70 
+target_pos-> 2 
+cost_b 70 
+cost_a-> -1 
+cost_total-> 71 
+*******************
+dato-> 11590 
+index-> 161 
+position in stack-> 71 
+target_pos-> 2 
+cost_b 71 
+cost_a-> -1 
+cost_total-> 72 
+*******************
+dato-> 1415 
+index-> 117 
+position in stack-> 72 
+target_pos-> 0 
+cost_b 72 
+cost_a-> 0 
+cost_total-> 72 
+*******************
+dato-> 1835 
+index-> 121 
+position in stack-> 73 
+target_pos-> 0 
+cost_b 73 
+cost_a-> 0 
+cost_total-> 73 
+*******************
+dato-> 3013 
+index-> 129 
+position in stack-> 74 
+target_pos-> 1 
+cost_b 74 
+cost_a-> 1 
+cost_total-> 75 
+*******************
+dato-> 12045 
+index-> 165 
+position in stack-> 75 
+target_pos-> 2 
+cost_b 75 
+cost_a-> -1 
+cost_total-> 76 
+*******************
+dato-> 6386 
+index-> 144 
+position in stack-> 76 
+target_pos-> 1 
+cost_b 76 
+cost_a-> 1 
+cost_total-> 77 
+*******************
+dato-> 11528 
+index-> 158 
+position in stack-> 77 
+target_pos-> 2 
+cost_b 77 
+cost_a-> -1 
+cost_total-> 78 
+*******************
+dato-> 3185 
+index-> 130 
+position in stack-> 78 
+target_pos-> 1 
+cost_b 78 
+cost_a-> 1 
+cost_total-> 79 
+*******************
+dato-> 11423 
+index-> 157 
+position in stack-> 79 
+target_pos-> 2 
+cost_b 79 
+cost_a-> -1 
+cost_total-> 80 
+*******************
+dato-> 12095 
+index-> 166 
+position in stack-> 80 
+target_pos-> 2 
+cost_b 80 
+cost_a-> -1 
+cost_total-> 81 
+*******************
+dato-> 17692 
+index-> 191 
+position in stack-> 81 
+target_pos-> 2 
+cost_b 81 
+cost_a-> -1 
+cost_total-> 82 
+*******************
+dato-> 8708 
+index-> 150 
+position in stack-> 82 
+target_pos-> 1 
+cost_b 82 
+cost_a-> 1 
+cost_total-> 83 
+*******************
+dato-> 14540 
+index-> 177 
+position in stack-> 83 
+target_pos-> 2 
+cost_b 83 
+cost_a-> -1 
+cost_total-> 84 
+*******************
+dato-> 5660 
+index-> 140 
+position in stack-> 84 
+target_pos-> 1 
+cost_b 84 
+cost_a-> 1 
+cost_total-> 85 
+*******************
+dato-> 12778 
+index-> 170 
+position in stack-> 85 
+target_pos-> 2 
+cost_b 85 
+cost_a-> -1 
+cost_total-> 86 
+*******************
+dato-> 15448 
+index-> 181 
+position in stack-> 86 
+target_pos-> 2 
+cost_b 86 
+cost_a-> -1 
+cost_total-> 87 
+*******************
+dato-> 20516 
+index-> 208 
+position in stack-> 87 
+target_pos-> 0 
+cost_b 87 
+cost_a-> 0 
+cost_total-> 87 
+*******************
+dato-> 14018 
+index-> 175 
+position in stack-> 88 
+target_pos-> 2 
+cost_b 88 
+cost_a-> -1 
+cost_total-> 89 
+*******************
+dato-> 19847 
+index-> 204 
+position in stack-> 89 
+target_pos-> 0 
+cost_b 89 
+cost_a-> 0 
+cost_total-> 89 
+*******************
+dato-> 14566 
+index-> 178 
+position in stack-> 90 
+target_pos-> 2 
+cost_b 90 
+cost_a-> -1 
+cost_total-> 91 
+*******************
+dato-> 8890 
+index-> 152 
+position in stack-> 91 
+target_pos-> 1 
+cost_b 91 
+cost_a-> 1 
+cost_total-> 92 
+*******************
+dato-> 6462 
+index-> 145 
+position in stack-> 92 
+target_pos-> 1 
+cost_b 92 
+cost_a-> 1 
+cost_total-> 93 
+*******************
+dato-> 18057 
+index-> 193 
+position in stack-> 93 
+target_pos-> 2 
+cost_b 93 
+cost_a-> -1 
+cost_total-> 94 
+*******************
+dato-> 15056 
+index-> 180 
+position in stack-> 94 
+target_pos-> 2 
+cost_b 94 
+cost_a-> -1 
+cost_total-> 95 
+*******************
+dato-> 2869 
+index-> 128 
+position in stack-> 95 
+target_pos-> 1 
+cost_b 95 
+cost_a-> 1 
+cost_total-> 96 
+*******************
+dato-> 6006 
+index-> 142 
+position in stack-> 96 
+target_pos-> 1 
+cost_b 96 
+cost_a-> 1 
+cost_total-> 97 
+*******************
+dato-> 246 
+index-> 110 
+position in stack-> 97 
+target_pos-> 0 
+cost_b 97 
+cost_a-> 0 
+cost_total-> 97 
+*******************
+dato-> 11568 
+index-> 159 
+position in stack-> 98 
+target_pos-> 2 
+cost_b 98 
+cost_a-> -1 
+cost_total-> 99 
+*******************
+dato-> 3703 
+index-> 132 
+position in stack-> 99 
+target_pos-> 1 
+cost_b 99 
+cost_a-> 1 
+cost_total-> 100 
+*******************
+dato-> 10458 
+index-> 156 
+position in stack-> 100 
+target_pos-> 2 
+cost_b 100 
+cost_a-> -1 
+cost_total-> 101 
+*******************
+dato-> 108 
+index-> 108 
+position in stack-> 101 
+target_pos-> 0 
+cost_b 101 
+cost_a-> 0 
+cost_total-> 101 
+*******************
+dato-> 107 
+index-> 107 
+position in stack-> 102 
+target_pos-> 0 
+cost_b 102 
+cost_a-> 0 
+cost_total-> 102 
+*******************
+dato-> 109 
+index-> 109 
+position in stack-> 103 
+target_pos-> 0 
+cost_b 103 
+cost_a-> 0 
+cost_total-> 103 
+*******************
+dato-> -8895 
+index-> 56 
+position in stack-> 104 
+target_pos-> 0 
+cost_b 104 
+cost_a-> 0 
+cost_total-> 104 
+*******************
+dato-> -1223 
+index-> 89 
+position in stack-> 105 
+target_pos-> 0 
+cost_b 105 
+cost_a-> 0 
+cost_total-> 105 
+*******************
+dato-> -11413 
+index-> 44 
+position in stack-> 106 
+target_pos-> 0 
+cost_b -104 
+cost_a-> 0 
+cost_total-> 104 
+*******************
+dato-> -4834 
+index-> 71 
+position in stack-> 107 
+target_pos-> 0 
+cost_b -103 
+cost_a-> 0 
+cost_total-> 103 
+*******************
+dato-> -850 
+index-> 91 
+position in stack-> 108 
+target_pos-> 0 
+cost_b -102 
+cost_a-> 0 
+cost_total-> 102 
+*******************
+dato-> -14828 
+index-> 33 
+position in stack-> 109 
+target_pos-> 0 
+cost_b -101 
+cost_a-> 0 
+cost_total-> 101 
+*******************
+dato-> -12323 
+index-> 43 
+position in stack-> 110 
+target_pos-> 0 
+cost_b -100 
+cost_a-> 0 
+cost_total-> 100 
+*******************
+dato-> -5583 
+index-> 69 
+position in stack-> 111 
+target_pos-> 0 
+cost_b -99 
+cost_a-> 0 
+cost_total-> 99 
+*******************
+dato-> -16368 
+index-> 20 
+position in stack-> 112 
+target_pos-> 0 
+cost_b -98 
+cost_a-> 0 
+cost_total-> 98 
+*******************
+dato-> -10343 
+index-> 47 
+position in stack-> 113 
+target_pos-> 0 
+cost_b -97 
+cost_a-> 0 
+cost_total-> 97 
+*******************
+dato-> -8148 
+index-> 58 
+position in stack-> 114 
+target_pos-> 0 
+cost_b -96 
+cost_a-> 0 
+cost_total-> 96 
+*******************
+dato-> -7196 
+index-> 64 
+position in stack-> 115 
+target_pos-> 0 
+cost_b -95 
+cost_a-> 0 
+cost_total-> 95 
+*******************
+dato-> -3826 
+index-> 81 
+position in stack-> 116 
+target_pos-> 0 
+cost_b -94 
+cost_a-> 0 
+cost_total-> 94 
+*******************
+dato-> -17902 
+index-> 12 
+position in stack-> 117 
+target_pos-> 0 
+cost_b -93 
+cost_a-> 0 
+cost_total-> 93 
+*******************
+dato-> -940 
+index-> 90 
+position in stack-> 118 
+target_pos-> 0 
+cost_b -92 
+cost_a-> 0 
+cost_total-> 92 
+*******************
+dato-> -4311 
+index-> 76 
+position in stack-> 119 
+target_pos-> 0 
+cost_b -91 
+cost_a-> 0 
+cost_total-> 91 
+*******************
+dato-> -15104 
+index-> 31 
+position in stack-> 120 
+target_pos-> 0 
+cost_b -90 
+cost_a-> 0 
+cost_total-> 90 
+*******************
+dato-> -15437 
+index-> 30 
+position in stack-> 121 
+target_pos-> 0 
+cost_b -89 
+cost_a-> 0 
+cost_total-> 89 
+*******************
+dato-> -9007 
+index-> 54 
+position in stack-> 122 
+target_pos-> 0 
+cost_b -88 
+cost_a-> 0 
+cost_total-> 88 
+*******************
+dato-> -3917 
+index-> 79 
+position in stack-> 123 
+target_pos-> 0 
+cost_b -87 
+cost_a-> 0 
+cost_total-> 87 
+*******************
+dato-> -16659 
+index-> 17 
+position in stack-> 124 
+target_pos-> 0 
+cost_b -86 
+cost_a-> 0 
+cost_total-> 86 
+*******************
+dato-> -1446 
+index-> 88 
+position in stack-> 125 
+target_pos-> 0 
+cost_b -85 
+cost_a-> 0 
+cost_total-> 85 
+*******************
+dato-> -19829 
+index-> 5 
+position in stack-> 126 
+target_pos-> 0 
+cost_b -84 
+cost_a-> 0 
+cost_total-> 84 
+*******************
+dato-> -6199 
+index-> 67 
+position in stack-> 127 
+target_pos-> 0 
+cost_b -83 
+cost_a-> 0 
+cost_total-> 83 
+*******************
+dato-> -1459 
+index-> 87 
+position in stack-> 128 
+target_pos-> 0 
+cost_b -82 
+cost_a-> 0 
+cost_total-> 82 
+*******************
+dato-> -9991 
+index-> 50 
+position in stack-> 129 
+target_pos-> 0 
+cost_b -81 
+cost_a-> 0 
+cost_total-> 81 
+*******************
+dato-> -19563 
+index-> 8 
+position in stack-> 130 
+target_pos-> 0 
+cost_b -80 
+cost_a-> 0 
+cost_total-> 80 
+*******************
+dato-> -4099 
+index-> 77 
+position in stack-> 131 
+target_pos-> 0 
+cost_b -79 
+cost_a-> 0 
+cost_total-> 79 
+*******************
+dato-> -7177 
+index-> 65 
+position in stack-> 132 
+target_pos-> 0 
+cost_b -78 
+cost_a-> 0 
+cost_total-> 78 
+*******************
+dato-> -3961 
+index-> 78 
+position in stack-> 133 
+target_pos-> 0 
+cost_b -77 
+cost_a-> 0 
+cost_total-> 77 
+*******************
+dato-> -7971 
+index-> 59 
+position in stack-> 134 
+target_pos-> 0 
+cost_b -76 
+cost_a-> 0 
+cost_total-> 76 
+*******************
+dato-> -14653 
+index-> 37 
+position in stack-> 135 
+target_pos-> 0 
+cost_b -75 
+cost_a-> 0 
+cost_total-> 75 
+*******************
+dato-> -9168 
+index-> 53 
+position in stack-> 136 
+target_pos-> 0 
+cost_b -74 
+cost_a-> 0 
+cost_total-> 74 
+*******************
+dato-> -19721 
+index-> 7 
+position in stack-> 137 
+target_pos-> 0 
+cost_b -73 
+cost_a-> 0 
+cost_total-> 73 
+*******************
+dato-> -3758 
+index-> 82 
+position in stack-> 138 
+target_pos-> 0 
+cost_b -72 
+cost_a-> 0 
+cost_total-> 72 
+*******************
+dato-> -16628 
+index-> 18 
+position in stack-> 139 
+target_pos-> 0 
+cost_b -71 
+cost_a-> 0 
+cost_total-> 71 
+*******************
+dato-> -7951 
+index-> 60 
+position in stack-> 140 
+target_pos-> 0 
+cost_b -70 
+cost_a-> 0 
+cost_total-> 70 
+*******************
+dato-> -19393 
+index-> 10 
+position in stack-> 141 
+target_pos-> 0 
+cost_b -69 
+cost_a-> 0 
+cost_total-> 69 
+*******************
+dato-> -19818 
+index-> 6 
+position in stack-> 142 
+target_pos-> 0 
+cost_b -68 
+cost_a-> 0 
+cost_total-> 68 
+*******************
+dato-> -19073 
+index-> 11 
+position in stack-> 143 
+target_pos-> 0 
+cost_b -67 
+cost_a-> 0 
+cost_total-> 67 
+*******************
+dato-> -9566 
+index-> 52 
+position in stack-> 144 
+target_pos-> 0 
+cost_b -66 
+cost_a-> 0 
+cost_total-> 66 
+*******************
+dato-> -15997 
+index-> 26 
+position in stack-> 145 
+target_pos-> 0 
+cost_b -65 
+cost_a-> 0 
+cost_total-> 65 
+*******************
+dato-> -8588 
+index-> 57 
+position in stack-> 146 
+target_pos-> 0 
+cost_b -64 
+cost_a-> 0 
+cost_total-> 64 
+*******************
+dato-> -173 
+index-> 96 
+position in stack-> 147 
+target_pos-> 0 
+cost_b -63 
+cost_a-> 0 
+cost_total-> 63 
+*******************
+dato-> -10009 
+index-> 49 
+position in stack-> 148 
+target_pos-> 0 
+cost_b -62 
+cost_a-> 0 
+cost_total-> 62 
+*******************
+dato-> -19550 
+index-> 9 
+position in stack-> 149 
+target_pos-> 0 
+cost_b -61 
+cost_a-> 0 
+cost_total-> 61 
+*******************
+dato-> -13981 
+index-> 40 
+position in stack-> 150 
+target_pos-> 0 
+cost_b -60 
+cost_a-> 0 
+cost_total-> 60 
+*******************
+dato-> -7287 
+index-> 63 
+position in stack-> 151 
+target_pos-> 0 
+cost_b -59 
+cost_a-> 0 
+cost_total-> 59 
+*******************
+dato-> -801 
+index-> 92 
+position in stack-> 152 
+target_pos-> 0 
+cost_b -58 
+cost_a-> 0 
+cost_total-> 58 
+*******************
+dato-> -1932 
+index-> 86 
+position in stack-> 153 
+target_pos-> 0 
+cost_b -57 
+cost_a-> 0 
+cost_total-> 57 
+*******************
+dato-> -14997 
+index-> 32 
+position in stack-> 154 
+target_pos-> 0 
+cost_b -56 
+cost_a-> 0 
+cost_total-> 56 
+*******************
+dato-> -14818 
+index-> 34 
+position in stack-> 155 
+target_pos-> 0 
+cost_b -55 
+cost_a-> 0 
+cost_total-> 55 
+*******************
+dato-> -14314 
+index-> 38 
+position in stack-> 156 
+target_pos-> 0 
+cost_b -54 
+cost_a-> 0 
+cost_total-> 54 
+*******************
+dato-> -7487 
+index-> 62 
+position in stack-> 157 
+target_pos-> 0 
+cost_b -53 
+cost_a-> 0 
+cost_total-> 53 
+*******************
+dato-> -21445 
+index-> 2 
+position in stack-> 158 
+target_pos-> 0 
+cost_b -52 
+cost_a-> 0 
+cost_total-> 52 
+*******************
+dato-> -15527 
+index-> 29 
+position in stack-> 159 
+target_pos-> 0 
+cost_b -51 
+cost_a-> 0 
+cost_total-> 51 
+*******************
+dato-> -20020 
+index-> 4 
+position in stack-> 160 
+target_pos-> 0 
+cost_b -50 
+cost_a-> 0 
+cost_total-> 50 
+*******************
+dato-> -17876 
+index-> 13 
+position in stack-> 161 
+target_pos-> 0 
+cost_b -49 
+cost_a-> 0 
+cost_total-> 49 
+*******************
+dato-> -17505 
+index-> 15 
+position in stack-> 162 
+target_pos-> 0 
+cost_b -48 
+cost_a-> 0 
+cost_total-> 48 
+*******************
+dato-> -313 
+index-> 95 
+position in stack-> 163 
+target_pos-> 0 
+cost_b -47 
+cost_a-> 0 
+cost_total-> 47 
+*******************
+dato-> -10188 
+index-> 48 
+position in stack-> 164 
+target_pos-> 0 
+cost_b -46 
+cost_a-> 0 
+cost_total-> 46 
+*******************
+dato-> -5825 
+index-> 68 
+position in stack-> 165 
+target_pos-> 0 
+cost_b -45 
+cost_a-> 0 
+cost_total-> 45 
+*******************
+dato-> -10898 
+index-> 45 
+position in stack-> 166 
+target_pos-> 0 
+cost_b -44 
+cost_a-> 0 
+cost_total-> 44 
+*******************
+dato-> -8989 
+index-> 55 
+position in stack-> 167 
+target_pos-> 0 
+cost_b -43 
+cost_a-> 0 
+cost_total-> 43 
+*******************
+dato-> -15876 
+index-> 28 
+position in stack-> 168 
+target_pos-> 0 
+cost_b -42 
+cost_a-> 0 
+cost_total-> 42 
+*******************
+dato-> -7739 
+index-> 61 
+position in stack-> 169 
+target_pos-> 0 
+cost_b -41 
+cost_a-> 0 
+cost_total-> 41 
+*******************
+dato-> -10480 
+index-> 46 
+position in stack-> 170 
+target_pos-> 0 
+cost_b -40 
+cost_a-> 0 
+cost_total-> 40 
+*******************
+dato-> -16166 
+index-> 23 
+position in stack-> 171 
+target_pos-> 0 
+cost_b -39 
+cost_a-> 0 
+cost_total-> 39 
+*******************
+dato-> -14704 
+index-> 36 
+position in stack-> 172 
+target_pos-> 0 
+cost_b -38 
+cost_a-> 0 
+cost_total-> 38 
+*******************
+dato-> -2428 
+index-> 85 
+position in stack-> 173 
+target_pos-> 0 
+cost_b -37 
+cost_a-> 0 
+cost_total-> 37 
+*******************
+dato-> -17558 
+index-> 14 
+position in stack-> 174 
+target_pos-> 0 
+cost_b -36 
+cost_a-> 0 
+cost_total-> 36 
+*******************
+dato-> -14154 
+index-> 39 
+position in stack-> 175 
+target_pos-> 0 
+cost_b -35 
+cost_a-> 0 
+cost_total-> 35 
+*******************
+dato-> -16154 
+index-> 24 
+position in stack-> 176 
+target_pos-> 0 
+cost_b -34 
+cost_a-> 0 
+cost_total-> 34 
+*******************
+dato-> -9650 
+index-> 51 
+position in stack-> 177 
+target_pos-> 0 
+cost_b -33 
+cost_a-> 0 
+cost_total-> 33 
+*******************
+dato-> -797 
+index-> 93 
+position in stack-> 178 
+target_pos-> 0 
+cost_b -32 
+cost_a-> 0 
+cost_total-> 32 
+*******************
+dato-> -12836 
+index-> 42 
+position in stack-> 179 
+target_pos-> 0 
+cost_b -31 
+cost_a-> 0 
+cost_total-> 31 
+*******************
+dato-> -6675 
+index-> 66 
+position in stack-> 180 
+target_pos-> 0 
+cost_b -30 
+cost_a-> 0 
+cost_total-> 30 
+*******************
+dato-> -14713 
+index-> 35 
+position in stack-> 181 
+target_pos-> 0 
+cost_b -29 
+cost_a-> 0 
+cost_total-> 29 
+*******************
+dato-> -5521 
+index-> 70 
+position in stack-> 182 
+target_pos-> 0 
+cost_b -28 
+cost_a-> 0 
+cost_total-> 28 
+*******************
+dato-> -16977 
+index-> 16 
+position in stack-> 183 
+target_pos-> 0 
+cost_b -27 
+cost_a-> 0 
+cost_total-> 27 
+*******************
+dato-> -4342 
+index-> 74 
+position in stack-> 184 
+target_pos-> 0 
+cost_b -26 
+cost_a-> 0 
+cost_total-> 26 
+*******************
+dato-> -21368 
+index-> 3 
+position in stack-> 185 
+target_pos-> 0 
+cost_b -25 
+cost_a-> 0 
+cost_total-> 25 
+*******************
+dato-> -15968 
+index-> 27 
+position in stack-> 186 
+target_pos-> 0 
+cost_b -24 
+cost_a-> 0 
+cost_total-> 24 
+*******************
+dato-> -4334 
+index-> 75 
+position in stack-> 187 
+target_pos-> 0 
+cost_b -23 
+cost_a-> 0 
+cost_total-> 23 
+*******************
+dato-> -16218 
+index-> 22 
+position in stack-> 188 
+target_pos-> 0 
+cost_b -22 
+cost_a-> 0 
+cost_total-> 22 
+*******************
+dato-> -12912 
+index-> 41 
+position in stack-> 189 
+target_pos-> 0 
+cost_b -21 
+cost_a-> 0 
+cost_total-> 21 
+*******************
+dato-> -4507 
+index-> 72 
+position in stack-> 190 
+target_pos-> 0 
+cost_b -20 
+cost_a-> 0 
+cost_total-> 20 
+*******************
+dato-> -3719 
+index-> 83 
+position in stack-> 191 
+target_pos-> 0 
+cost_b -19 
+cost_a-> 0 
+cost_total-> 19 
+*******************
+dato-> -16238 
+index-> 21 
+position in stack-> 192 
+target_pos-> 0 
+cost_b -18 
+cost_a-> 0 
+cost_total-> 18 
+*******************
+dato-> -525 
+index-> 94 
+position in stack-> 193 
+target_pos-> 0 
+cost_b -17 
+cost_a-> 0 
+cost_total-> 17 
+*******************
+dato-> -16424 
+index-> 19 
+position in stack-> 194 
+target_pos-> 0 
+cost_b -16 
+cost_a-> 0 
+cost_total-> 16 
+*******************
+dato-> -2940 
+index-> 84 
+position in stack-> 195 
+target_pos-> 0 
+cost_b -15 
+cost_a-> 0 
+cost_total-> 15 
+*******************
+dato-> -4486 
+index-> 73 
+position in stack-> 196 
+target_pos-> 0 
+cost_b -14 
+cost_a-> 0 
+cost_total-> 14 
+*******************
+dato-> -3841 
+index-> 80 
+position in stack-> 197 
+target_pos-> 0 
+cost_b -13 
+cost_a-> 0 
+cost_total-> 13 
+*******************
+dato-> -16005 
+index-> 25 
+position in stack-> 198 
+target_pos-> 0 
+cost_b -12 
+cost_a-> 0 
+cost_total-> 12 
+*******************
+dato-> -393718 
+index-> 1 
+position in stack-> 199 
+target_pos-> 0 
+cost_b -11 
+cost_a-> 0 
+cost_total-> 11 
+*******************
+dato-> -40 
+index-> 98 
+position in stack-> 200 
+target_pos-> 0 
+cost_b -10 
+cost_a-> 0 
+cost_total-> 10 
+*******************
+dato-> 99 
+index-> 101 
+position in stack-> 201 
+target_pos-> 0 
+cost_b -9 
+cost_a-> 0 
+cost_total-> 9 
+*******************
+dato-> 105 
+index-> 105 
+position in stack-> 202 
+target_pos-> 0 
+cost_b -8 
+cost_a-> 0 
+cost_total-> 8 
+*******************
+dato-> 102 
+index-> 104 
+position in stack-> 203 
+target_pos-> 0 
+cost_b -7 
+cost_a-> 0 
+cost_total-> 7 
+*******************
+dato-> 101 
+index-> 103 
+position in stack-> 204 
+target_pos-> 0 
+cost_b -6 
+cost_a-> 0 
+cost_total-> 6 
+*******************
+dato-> 100 
+index-> 102 
+position in stack-> 205 
+target_pos-> 0 
+cost_b -5 
+cost_a-> 0 
+cost_total-> 5 
+*******************
+dato-> -32 
+index-> 99 
+position in stack-> 206 
+target_pos-> 0 
+cost_b -4 
+cost_a-> 0 
+cost_total-> 4 
+*******************
+dato-> -45 
+index-> 97 
+position in stack-> 207 
+target_pos-> 0 
+cost_b -3 
+cost_a-> 0 
+cost_total-> 3 
+*******************
+dato-> 106 
+index-> 106 
+position in stack-> 208 
+target_pos-> 0 
+cost_b -2 
+cost_a-> 0 
+cost_total-> 2 
+*******************
+dato-> 34 
+index-> 100 
+position in stack-> 209 
+target_pos-> 0 
+cost_b -1 
+cost_a-> 0 
+cost_total-> 1 

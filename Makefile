@@ -6,13 +6,13 @@
 #    By: Jroldan- <jroldan-@student.42malaga.com    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2023/06/02 11:45:29 by Jroldan-          #+#    #+#              #
-#    Updated: 2023/06/20 18:01:28 by Jroldan-         ###   ########.fr        #
+#    Updated: 2023/06/22 18:05:41 by jroldan-         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
 NAME = push_swap
 
-CC = gcc
+CC = gcc -g
 CFLAG = -Wall -Werror -Wextra
 RM = rm -f
 DIR_SRC = ./src/
@@ -21,7 +21,7 @@ LIBFT = $(DIR_LIBFT)/libft.a
 SRC =	$(DIR_SRC)/main.c $(DIR_SRC)/operation_list.c  $(DIR_SRC)/check_values.c \
 		$(DIR_SRC)/movements_swap.c $(DIR_SRC)/movements_push.c \
 		$(DIR_SRC)/movements_rotate.c $(DIR_SRC)/movements_reverse.c $(DIR_SRC)/operation_list2.c \
-		$(DIR_SRC)/check_values2.c $(DIR_SRC)/push_swap.c
+		$(DIR_SRC)/check_values2.c $(DIR_SRC)/push_swap.c $(DIR_SRC)/push_swap_utils.c
 MAKE = make
 
 #INCLUDES =	push_swap.h libft/libft.h

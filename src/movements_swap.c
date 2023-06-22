@@ -6,7 +6,7 @@
 /*   By: Jroldan- <jroldan-@student.42malaga.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/06/14 13:03:21 by Jroldan-          #+#    #+#             */
-/*   Updated: 2023/06/20 20:11:40 by Jroldan-         ###   ########.fr       */
+/*   Updated: 2023/06/22 13:21:28 by Jroldan-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,17 +14,6 @@
 
 void	swap(t_nodo **a, char c)
 {
-	// t_nodo	*tmp;
-
-	// if (*a == NULL || (*a)->next == NULL)
-	// 	return ;
-	// if (*a != NULL && (*a)->next != NULL)
-	// {	
-	// 	tmp = (*a)->next;
-	// 	(*a)->next = tmp->next;
-	// 	tmp->next = (*a);
-	// 	(*a) = tmp;
-	// }
 	int	swap;
 	int	swap_index;
 
@@ -34,6 +23,7 @@ void	swap(t_nodo **a, char c)
 	(*a)->index = (*a)->next->index;
 	(*a)->next->date = swap;
 	(*a)->next->index = swap_index;
+	ft_position(a);
 	if (c == 'a' || c == 'b')
 		printf ("s%c\n", c);
 }
