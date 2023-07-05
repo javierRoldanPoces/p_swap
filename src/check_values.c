@@ -6,7 +6,7 @@
 /*   By: javier <javier@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/06/07 18:20:24 by Jroldan-          #+#    #+#             */
-/*   Updated: 2023/06/19 17:26:08 by javier           ###   ########.fr       */
+/*   Updated: 2023/06/29 11:40:42 by javier           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -38,7 +38,7 @@ int	ft_range_int(long a, long b)
 	if (a == b)
 		return (1);
 	else
-		return (printf("error: out of range"), 0);
+		return (0);
 }
 
 int	ft_check_sign(char *str)
@@ -47,13 +47,13 @@ int	ft_check_sign(char *str)
 
 	i = 0;
 	if ((str[i] == '+' || str[i] == '-') && str[i + 1] == '\0')
-		return (printf("error signos\n"), 0);
+		return (ft_printf("Error\n"), 0);
 	if (str[i] == '+' || str[i] == '-')
 		i++;
 	while (str[i])
 	{
 		if (str[i] == '+' || str[i] == '-')
-			return (printf("error signos\n"), 0);
+			return (0);
 		i++;
 	}
 	return (1);
@@ -63,15 +63,15 @@ int	ft_check_digit(char *str)
 {
 	int	i;
 
-	i = 1;
+	i = 0;
+	if (str[i] == '+' || str[i] == '-')
+		i++;
 	while (str[i])
 	{
 		if (ft_isdigit(str[i]))
 			i++;
 		else
-		{
-			return (printf("No digit\n"), 0);
-		}
+			return (0);
 	}
 	return (1);
 }

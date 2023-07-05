@@ -1,59 +1,37 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   operation_list2.c                                  :+:      :+:    :+:   */
+/*   push_swap_utils2.c                                 :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: javier <javier@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/06/19 17:21:09 by javier            #+#    #+#             */
-/*   Updated: 2023/07/05 19:33:26 by javier           ###   ########.fr       */
+/*   Created: 2023/07/05 17:37:19 by javier            #+#    #+#             */
+/*   Updated: 2023/07/05 19:55:53 by javier           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "./push_swap.h"
+#include "push_swap.h"
 
-void	ft_free_lst(t_nodo *lst)
+int	ft_abs(int a)
 {
-	t_nodo	*tmp;
-
-	while (lst)
-	{
-		tmp = lst;
-		lst = lst->next;
-		free(tmp);
-	}
+	if (a < 0)
+		a = a * -1;
+	return (a);
 }
 
-void	free_memory(char **str)
+t_nodo	*ft_calc_min_cost(t_nodo *lst)
 {
-	int	i;
-
-	i = 0;
-	while (str[i] != NULL)
-	{
-		free(str[i]);
-		i++;
-	}
-	free(str);
-}
-
-int	ft_size_lst(t_nodo *lst)
-{
-	int		count;
 	t_nodo	*aux;
+	t_nodo	*cost_min;
 
-	aux = lst;
-	count = 0;
+	aux = (lst);
+	cost_min = aux;
 	while (aux)
 	{
-		aux = aux->next;
-		count++;
+		if (aux->cost_total < cost_min->cost_total)
+			cost_min = aux;
+		else
+			aux = aux->next;
 	}
-	return (count);
-}
-
-void	error(void)
-{
-	ft_printf("Error\n");
-	exit(EXIT_FAILURE);
+	return (cost_min);
 }

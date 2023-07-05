@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   push_swap.h                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: Jroldan- <jroldan-@student.42malaga.com    +#+  +:+       +#+        */
+/*   By: javier <javier@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/06/06 18:46:50 by Jroldan-          #+#    #+#             */
-/*   Updated: 2023/06/22 17:13:53 by Jroldan-         ###   ########.fr       */
+/*   Updated: 2023/07/05 19:32:54 by javier           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,6 +18,7 @@
 # include <stdio.h>
 # include <limits.h>
 # include "../libft/libft.h"
+# include "../ft_printf/ft_printf.h"
 
 typedef struct nodo {
 	int			date;
@@ -40,6 +41,8 @@ void		print_stack(t_nodo *list);
 int			ft_size_lst(t_nodo *lst);
 //free
 void		ft_free_lst(t_nodo *lst);
+void		free_memory(char **str);
+void		error(void);
 //parse
 int			ft_check_sign(char *str);
 int			ft_check_digit(char *str);
@@ -51,21 +54,33 @@ void		ft_asign_index(t_nodo **lst, int size);
 //movements
 void		swap(t_nodo **a, char c);
 void		ss(t_nodo **a, t_nodo **b);
-void		pa(t_nodo **stck_b, t_nodo **stck_a);
-void		pb(t_nodo **origin, t_nodo **dest);
+void		pa(t_nodo **stack_b, t_nodo **stack_a);
+void		pb(t_nodo **stack_a, t_nodo **stack_b);
 void		rotate(t_nodo **stack, char c);
 void		rr(t_nodo **stack_a, t_nodo **stack_b);
 void		reverse(t_nodo **stack, char c);
 void		rrr(t_nodo **stack_a, t_nodo **stack_b);
 //push_swap sort
+//ordena  2 || 3 nodos
+void		ft_sort_two(t_nodo **stack_a);
 void		ft_sort_three(t_nodo **lst);
+//calcula posicion de los elementos en el stack recibido
 void		ft_position(t_nodo **lst);
+// funcion principal de ordenacion 
 void		ft_sort(t_nodo **stack_a, t_nodo **stack_b);
+// Calcula el la posicion optima (target_pos) de los nodos del stack_b
 void		ft_target_pos(t_nodo **stack_a, t_nodo **stack_b);
+//funcion para calcular valos absoluto de los costes
 int			ft_abs(int a);
 int			index_min(t_nodo **stack_a);
 void		ft_calc_cost(t_nodo **stack_a, t_nodo **stack_b);
 void		ft_total_cost(t_nodo **stack_b);
-int			ft_calc_min_cost(t_nodo *lst);
+t_nodo		*ft_calc_min_cost(t_nodo *lst);
+void		recalculate(t_nodo **stack_a, t_nodo **stack_b);
+void		cost_ab_pos(t_nodo **stack_a, t_nodo **stack_b, t_nodo *lower);
+void		cost_ab_neg(t_nodo **stack_a, t_nodo **stack_b, t_nodo *lower);
+void		cost_a_neg_b_pos(t_nodo **stack_a, t_nodo **stack_b, t_nodo *lower);
+void		cost_a_pos_b_neg(t_nodo **stack_a, t_nodo **stack_b, t_nodo *lower);
+void		finishing_move(t_nodo **stack_a);
 
 #endif

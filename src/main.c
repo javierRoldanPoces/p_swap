@@ -3,31 +3,98 @@
 /*                                                        :::      ::::::::   */
 /*   main.c                                             :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: Jroldan- <jroldan-@student.42malaga.com    +#+  +:+       +#+        */
+/*   By: javier <javier@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/06/06 18:28:55 by Jroldan-          #+#    #+#             */
-/*   Updated: 2023/06/22 17:47:36 by Jroldan-         ###   ########.fr       */
+/*   Updated: 2023/07/05 19:53:45 by javier           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "./push_swap.h"
 
-static int	ft_params(char *str, t_nodo *aux, t_nodo **lst)
+static int	ft_params(char **str, t_nodo *aux, t_nodo **lst, int wall)
 {
-	if (ft_check_sign(str) && ft_check_digit(str)
-		&& ft_range_int((long)ft_atoi(str), ft_atoi_long(str)))
+	if (ft_check_sign(*str) && ft_check_digit(*str)
+		&& ft_range_int((long)ft_atoi(*str), ft_atoi_long(*str)))
 	{
-		aux = create_nodo(ft_atoi(str));
+		aux = create_nodo(ft_atoi(*str));
 		if (repeat_value(aux->date, *lst))
 			insert_last(lst, aux);
 		else
 		{
-			printf("error:repeat_value");
-			exit(0);
+			ft_printf("Error\n");
+			ft_free_lst(aux);
+			ft_free_lst(*lst);
+			if (wall == 1)
+				return (0);
 		}
 	}
 	else
-		exit(0);
+	{	
+		ft_printf("Error\n");
+		ft_free_lst(*lst);
+		if (wall == 1)
+			return (0);
+	}
+	return (1);
+}
+
+static void	ft_two_params( char **argv, t_nodo *aux, t_nodo **stack_a)
+{
+	int		i;	
+	char	**arg;
+
+	i = 0;
+	arg = ft_split(argv[1], ' ');
+	while (arg[i] != NULL)
+	{
+		if (ft_params(&arg[i], aux, stack_a, 1))
+			i++;
+		else
+		{
+			free_memory(arg);
+			exit(0);
+		}
+	}
+	free_memory(arg);
+}
+
+/*
+void	leaks(void)
+{
+	system("leaks");
+}
+*/
+
+static void	stack_is_sorted(t_nodo *stack_a)
+{
+	ft_free_lst(stack_a);
+	exit(EXIT_SUCCESS);
+}
+
+static int	order_stack(t_nodo **stack_a, t_nodo **stack_b)
+{
+	ft_asign_index(stack_a, ft_size_lst(*stack_a));
+	ft_position(stack_a);
+	if (ft_size_lst(*stack_a) == 2)
+	{
+		ft_sort_two(stack_a);
+		ft_free_lst(*stack_a);
+		exit (1);
+	}
+	else if (ft_size_lst(*stack_a) == 3)
+	{	
+		ft_sort_three(stack_a);
+		ft_free_lst(*stack_a);
+		exit (1);
+	}
+	else if (ft_size_lst(*stack_a) > 3)
+	{
+		*stack_b = init_list();
+		ft_sort(stack_a, stack_b);
+	}
+	ft_free_lst(*stack_a);
+	ft_free_lst(*stack_b);
 	return (1);
 }
 
@@ -37,41 +104,24 @@ int	main(int argc, char **argv)
 	t_nodo		*aux;
 	t_nodo		*stack_a;
 	t_nodo		*stack_b;
-	char		**arg;
 
 	stack_a = init_list();
-	stack_b = init_list();
 	aux = init_list();
 	if (argc > 2)
 	{
 		i = 0;
 		while (++i < argc)
-			ft_params(argv[i], aux, &stack_a);
+			ft_params(&argv[i], aux, &stack_a, 0);
 	}
 	else if (argc == 2)
-	{
-		i = -1;
-		arg = ft_split(argv[1], ' ');
-		while (arg[++i] != NULL)
-			ft_params(arg[i], aux, &stack_a);
+		ft_two_params(argv, aux, &(stack_a));
+	if (ft_size_lst(stack_a) == 0)
+	{	
+		ft_free_lst(stack_a);
+		error();
 	}
 	if (ft_stack_sorted(stack_a))
-		return (printf("error:stack ordenado\n"), 1);
-	ft_asign_index(&(stack_a), ft_size_lst(stack_a));
-	ft_position(&(stack_a));
-	printf("++++++++++++++++++++++++++Stack a:\n");
-	print_stack(stack_a);
-	printf("+++++++++++++++++++++++++++Stack b:\n");
-	printf("size b:%d\n", ft_size_lst(stack_b));
-	print_stack(stack_b);
-	//pb(&stack_a, &stack_b);
-	ft_sort(&(stack_a), &(stack_b));
-	//ft_calc_cost(&(stack_a), &(stack_b));
-	printf("+++++++++++++++++++++++++++++Stack a :\n");
-	printf("size a:%d\n", ft_size_lst(stack_a));
-	print_stack(stack_a);
-	printf("++++++++++++++++++++++++++++++Stack b:\n");
-	printf("size b:%d\n", ft_size_lst(stack_b));
-	print_stack(stack_b);
+		stack_is_sorted(stack_a);
+	order_stack(&(stack_a), &(stack_b));
 	return (1);
 }

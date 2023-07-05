@@ -3,21 +3,14 @@
 /*                                                        :::      ::::::::   */
 /*   push_swap_utils.c                                  :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: Jroldan- <jroldan-@student.42malaga.com    +#+  +:+       +#+        */
+/*   By: javier <javier@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/06/22 11:07:38 by Jroldan-          #+#    #+#             */
-/*   Updated: 2023/06/22 17:51:22 by Jroldan-         ###   ########.fr       */
+/*   Updated: 2023/07/05 17:41:30 by javier           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "push_swap.h"
-
-int	ft_abs(int a)
-{
-	if (a < 0)
-		a = a * -1;
-	return (a);
-}
 
 void	ft_position(t_nodo **lst)
 {
@@ -64,17 +57,12 @@ void	ft_calc_cost(t_nodo **stack_a, t_nodo **stack_b)
 	aux = (*stack_b);
 	size_a = ft_size_lst(*stack_a);
 	size_b = ft_size_lst(*stack_b);
-	// 1º caclculo coste de B
-	//printf("el size_b es = %d\n", size_b);
-	//printf("el size_a es = %d\n", size_a);
 	while (aux)
 	{
-		//printf("Entra en calculo de costes\n");
 		if ((aux)-> pos < size_b / 2 + 1)
 			(aux)->cost_b = ((aux)->pos);
 		else if ((aux)-> pos >= size_b / 2 + 1)
 			(aux)->cost_b = (size_b - (aux)->pos) * -1;
-		// 2º Calculo de coste de A (basado en target_pos)
 		if ((aux)->target_pos < size_a / 2 + 1)
 			(aux)->cost_a = (aux)->target_pos;
 		else if ((aux)-> target_pos >= size_a / 2 + 1)
@@ -89,10 +77,26 @@ void	ft_total_cost(t_nodo **stack_b)
 	t_nodo	*aux;
 
 	aux = (*stack_b);
-
 	while (aux)
 	{
 		aux->cost_total = ft_abs(aux->cost_a) + ft_abs(aux->cost_b);
 		aux = aux->next;
 	}
+}
+
+void	recalculate(t_nodo **stack_a, t_nodo **stack_b)
+{
+	t_nodo	*a;
+	t_nodo	*b;
+
+	b = (*stack_b);
+	a = (*stack_a);
+	ft_position(&a);
+	ft_position(&b);
+	ft_target_pos(&a, &b);
+	ft_calc_cost(&a, &b);
+	ft_total_cost(stack_b);
+	ft_calc_min_cost(*stack_b);
+	ft_position(&a);
+	ft_position(&b);
 }

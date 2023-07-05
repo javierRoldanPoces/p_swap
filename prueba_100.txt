@@ -1,0 +1,806 @@
+ra
+ra
+ra
+ra
+ra
+ra
+ra
+pb
+ra
+pb
+pb
+pb
+ra
+pb
+pb
+ra
+ra
+ra
+pb
+ra
+pb
+ra
+ra
+pb
+ra
+ra
+ra
+ra
+pb
+pb
+pb
+pb
+ra
+pb
+ra
+pb
+ra
+pb
+ra
+ra
+ra
+pb
+pb
+pb
+pb
+pb
+ra
+ra
+pb
+pb
+ra
+pb
+pb
+pb
+pb
+ra
+ra
+ra
+pb
+pb
+ra
+pb
+ra
+ra
+pb
+ra
+pb
+ra
+ra
+ra
+pb
+ra
+ra
+ra
+pb
+pb
+ra
+ra
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+ra
+ra
+ra
+pb
+pb
+ra
+pb
+ra
+pb
+ra
+pb
+pb
+ra
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+pb
+ra
+sa
+pa
+pa
+rra
+pa
+ss
+pa
+rra
+rra
+rra
+pa
+rra
+pa
+rb
+rra
+pa
+ra
+ra
+ra
+ra
+pa
+rra
+pa
+rrb
+rrb
+pa
+ra
+ra
+ra
+ra
+ra
+ra
+pa
+ra
+pa
+ra
+pa
+ss
+ra
+pa
+rra
+pa
+ra
+ra
+ra
+pa
+rrb
+ra
+ra
+ra
+pa
+rb
+rb
+rb
+rra
+pa
+rb
+rb
+rra
+pa
+ra
+ra
+ra
+ra
+ra
+pa
+pa
+rb
+rb
+rb
+rb
+rb
+rb
+rra
+pa
+ss
+pa
+rb
+rra
+pa
+rra
+rra
+rra
+rra
+rra
+rra
+pa
+pa
+rb
+rb
+rb
+rb
+rb
+pa
+rb
+rra
+rra
+rra
+rra
+rra
+rra
+rra
+pa
+ra
+ra
+pa
+ra
+pa
+rra
+pa
+pa
+rb
+pa
+ra
+ra
+ra
+pa
+rb
+pa
+rrb
+rrb
+pa
+ra
+ra
+ra
+ra
+pa
+pa
+rb
+rra
+pa
+rra
+pa
+rra
+pa
+ss
+pa
+ss
+rb
+pa
+ra
+ra
+ra
+pa
+ss
+ra
+pa
+rrb
+rrb
+pa
+ra
+ra
+ra
+ra
+ra
+ra
+ra
+pa
+rrb
+pa
+rrr
+pa
+ss
+ss
+ra
+pa
+ss
+rb
+rb
+pa
+rb
+rra
+rra
+rra
+rra
+rra
+rra
+rra
+pa
+rb
+rra
+rra
+rra
+rra
+rra
+rra
+rra
+rra
+pa
+rb
+pa
+rra
+rra
+rra
+pa
+rrb
+rrb
+pa
+rra
+rra
+pa
+rrb
+rrb
+pa
+rb
+rb
+rb
+rb
+rb
+pa
+rb
+rb
+rb
+rb
+rb
+rb
+rb
+rb
+rb
+rra
+rra
+pa
+rb
+rra
+rra
+rra
+pa
+rra
+pa
+rb
+rb
+rb
+pa
+rra
+pa
+ra
+ra
+ra
+ra
+ra
+ra
+pa
+ss
+rb
+pa
+rra
+pa
+rb
+pa
+rb
+rb
+rra
+rra
+rra
+rra
+pa
+rrr
+rrr
+rra
+rra
+rra
+rra
+pa
+rra
+rra
+rra
+rra
+rra
+rra
+pa
+rrr
+rra
+rra
+rra
+rra
+rra
+rra
+rra
+rra
+rra
+rra
+rra
+rra
+rra
+pa
+rrb
+rrb
+ra
+pa
+rrb
+rrb
+rrb
+pa
+rra
+pa
+rrb
+ra
+ra
+ra
+ra
+ra
+pa
+rrr
+rrr
+rra
+rra
+rra
+rra
+rra
+rra
+rra
+rra
+pa
+rra
+rra
+rra
+pa
+rrr
+rra
+rra
+rra
+rra
+rra
+pa
+rrr
+rrr
+rrb
+pa
+rra
+rra
+rra
+rra
+pa
+rra
+pa
+rb
+rb
+rb
+rb
+pa
+rra
+rra
+pa
+rrb
+pa
+ra
+ra
+ra
+ra
+ra
+pa
+ra
+ra
+ra
+pa
+ss
+ss
+ss
+rb
+rb
+pa
+ra
+ra
+ra
+ra
+ra
+ra
+ra
+ra
+ra
+ra
+pa
+rrb
+ra
+ra
+ra
+ra
+ra
+ra
+ra
+ra
+ra
+pa
+rrr
+rrb
+rrb
+pa
+ra
+ra
+ra
+ra
+ra
+pa
+rrb
+pa
+ra
+ra
+ra
+ra
+pa
+ra
+ra
+ra
+ra
+ra
+ra
+ra
+ra
+ra
+ra
+ra
+ra
+ra
+ra
+ra
+ra
+ra
+ra
+ra
+ra
+ra
+ra
+ra
+ra
+ra
+ra
+ra
+ra
+ra
+ra
+ra
+ra
+ra
+ra
+ra
+ra
+ra
+ra
+ra
+ra
+ra
+ra
+ra
+ra
+ra
+ra
+ra
+ra
+pa
+rra
+pa
+ra
+ra
+ra
+ra
+ra
+pa
+*******************
+dato-> 0 
+*******************
+dato-> 1 
+*******************
+dato-> 2 
+*******************
+dato-> 3 
+*******************
+dato-> 4 
+*******************
+dato-> 5 
+*******************
+dato-> 6 
+*******************
+dato-> 7 
+*******************
+dato-> 8 
+*******************
+dato-> 9 
+*******************
+dato-> 10 
+*******************
+dato-> 11 
+*******************
+dato-> 12 
+*******************
+dato-> 13 
+*******************
+dato-> 14 
+*******************
+dato-> 15 
+*******************
+dato-> 16 
+*******************
+dato-> 17 
+*******************
+dato-> 18 
+*******************
+dato-> 19 
+*******************
+dato-> 20 
+*******************
+dato-> 21 
+*******************
+dato-> 22 
+*******************
+dato-> 23 
+*******************
+dato-> 24 
+*******************
+dato-> 25 
+*******************
+dato-> 26 
+*******************
+dato-> 27 
+*******************
+dato-> 28 
+*******************
+dato-> 29 
+*******************
+dato-> 30 
+*******************
+dato-> 31 
+*******************
+dato-> 32 
+*******************
+dato-> 33 
+*******************
+dato-> 34 
+*******************
+dato-> 35 
+*******************
+dato-> 36 
+*******************
+dato-> 37 
+*******************
+dato-> 38 
+*******************
+dato-> 39 
+*******************
+dato-> 40 
+*******************
+dato-> 41 
+*******************
+dato-> 42 
+*******************
+dato-> 43 
+*******************
+dato-> 44 
+*******************
+dato-> 45 
+*******************
+dato-> 46 
+*******************
+dato-> 47 
+*******************
+dato-> 48 
+*******************
+dato-> 49 
+*******************
+dato-> 50 
+*******************
+dato-> 51 
+*******************
+dato-> 52 
+*******************
+dato-> 53 
+*******************
+dato-> 54 
+*******************
+dato-> 55 
+*******************
+dato-> 56 
+*******************
+dato-> 57 
+*******************
+dato-> 58 
+*******************
+dato-> 59 
+*******************
+dato-> 60 
+*******************
+dato-> 61 
+*******************
+dato-> 62 
+*******************
+dato-> 63 
+*******************
+dato-> 64 
+*******************
+dato-> 65 
+*******************
+dato-> 66 
+*******************
+dato-> 67 
+*******************
+dato-> 68 
+*******************
+dato-> 69 
+*******************
+dato-> 70 
+*******************
+dato-> 71 
+*******************
+dato-> 72 
+*******************
+dato-> 73 
+*******************
+dato-> 74 
+*******************
+dato-> 75 
+*******************
+dato-> 76 
+*******************
+dato-> 77 
+*******************
+dato-> 78 
+*******************
+dato-> 79 
+*******************
+dato-> 80 
+*******************
+dato-> 81 
+*******************
+dato-> 82 
+*******************
+dato-> 83 
+*******************
+dato-> 84 
+*******************
+dato-> 85 
+*******************
+dato-> 86 
+*******************
+dato-> 87 
+*******************
+dato-> 88 
+*******************
+dato-> 89 
+*******************
+dato-> 90 
+*******************
+dato-> 91 
+*******************
+dato-> 92 
+*******************
+dato-> 93 
+*******************
+dato-> 94 
+*******************
+dato-> 95 
+*******************
+dato-> 96 
+*******************
+dato-> 97 
+*******************
+dato-> 98 
+*******************
+dato-> 99 
+size a:100

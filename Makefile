@@ -3,51 +3,63 @@
 #                                                         :::      ::::::::    #
 #    Makefile                                           :+:      :+:    :+:    #
 #                                                     +:+ +:+         +:+      #
-#    By: Jroldan- <jroldan-@student.42malaga.com    +#+  +:+       +#+         #
+#    By: javier <javier@student.42.fr>              +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2023/06/02 11:45:29 by Jroldan-          #+#    #+#              #
-#    Updated: 2023/06/22 18:05:41 by jroldan-         ###   ########.fr        #
+#    Updated: 2023/07/05 17:42:41 by javier           ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
 NAME = push_swap
 
-CC = gcc -g
+CC = gcc
 CFLAG = -Wall -Werror -Wextra
-RM = rm -f
-DIR_SRC = ./src/
-DIR_LIBFT = ./libft
+RM = rm -fr
+
+DIR_SRC =	./src/
+DIR_LIBFT =	./libft
+DIR_FT_PRINTF	=	./ft_printf
+
+FT_PRINTF	= $(DIR_FT_PRINTF)/ft_printf.a
 LIBFT = $(DIR_LIBFT)/libft.a
+
 SRC =	$(DIR_SRC)/main.c $(DIR_SRC)/operation_list.c  $(DIR_SRC)/check_values.c \
 		$(DIR_SRC)/movements_swap.c $(DIR_SRC)/movements_push.c \
 		$(DIR_SRC)/movements_rotate.c $(DIR_SRC)/movements_reverse.c $(DIR_SRC)/operation_list2.c \
-		$(DIR_SRC)/check_values2.c $(DIR_SRC)/push_swap.c $(DIR_SRC)/push_swap_utils.c
-MAKE = make
+		$(DIR_SRC)/check_values2.c $(DIR_SRC)/push_swap.c $(DIR_SRC)/push_swap_utils.c $(DIR_SRC)/sort.c \
+		$(DIR_SRC)/push_swap_utils2.c
 
-#INCLUDES =	push_swap.h libft/libft.h
+OBJ = $(SRC:.c=.o)
 
-all :	$(LIBFT) $(NAME)
+all :	$(LIBFT) $(FT_PRINTF) $(NAME)
 		@echo completed
 
 $(NAME) :	$(OBJ)	
-			@$(CC) $(CFLAG) $(SRC) -o $(NAME) $(LIBFT)
+			@$(CC) $(CFLAG) -g3 $(SRC) -o $(NAME) $(LIBFT) $(FT_PRINTF)
 			@echo completed
 			
-OBJ = $(SRC:.c=.o)
+MAKE :	make
 
-# libft:	$(DIR_LIBFT)
+$(FT_PRINTF):
+			@$(MAKE) -C $(DIR_FT_PRINTF)
+			@echo completed
+
 $(LIBFT):	$(DIR_LIBFT)
-		@$(MAKE) -C $(DIR_LIBFT)
-		@echo completed
+			@$(MAKE) -C $(DIR_LIBFT)
+			@echo completed
 		
 re: fclean all
 
 clean:
-	@$(MAKE) -s clean -C $(DIR_LIBFT)
-	@$(RM) $(OBJ)
+		@$(MAKE) -s clean -C $(DIR_LIBFT)
+		@$(MAKE) -s clean -C $(DIR_FT_PRINTF)
+		@$(RM) $(OBJ)
+		@echo completed
 
 fclean:	clean
-		@$(MAKE) -s fclean -C $(DIR_LIBFT)	
+		@$(MAKE) -s fclean -C $(DIR_LIBFT)
+		@$(MAKE) -s fclean -C $(DIR_FT_PRINTF)	
 		@$(RM) $(NAME)
+		@echo completed
 
-.PHONY : all libft re clean fclean
+.PHONY : all clean fclean re

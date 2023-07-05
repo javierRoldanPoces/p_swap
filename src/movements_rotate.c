@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   movements_rotate.c                                 :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: Jroldan- <jroldan-@student.42malaga.com    +#+  +:+       +#+        */
+/*   By: javier <javier@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/06/19 16:44:03 by javier            #+#    #+#             */
-/*   Updated: 2023/06/20 20:05:36 by Jroldan-         ###   ########.fr       */
+/*   Updated: 2023/06/29 21:54:20 by javier           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -28,12 +28,12 @@ void	rotate(t_nodo **stack, char c)
 	(*stack)->prev = NULL;
 	ft_position(stack);
 	if (c == 'a' || c == 'b')
-		printf ("r%c\n", c);
+		ft_printf ("r%c\n", c);
 }
 
 void	rr(t_nodo **stack_a, t_nodo **stack_b)
 {
 	rotate(stack_a, 's');
 	rotate(stack_b, 's');
-	printf("ss\n");
+	ft_printf("rr\n");
 }

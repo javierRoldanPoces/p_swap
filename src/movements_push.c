@@ -3,51 +3,69 @@
 /*                                                        :::      ::::::::   */
 /*   movements_push.c                                   :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: Jroldan- <jroldan-@student.42malaga.com    +#+  +:+       +#+        */
+/*   By: javier <javier@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/06/19 16:38:48 by javier            #+#    #+#             */
-/*   Updated: 2023/06/20 20:03:52 by Jroldan-         ###   ########.fr       */
+/*   Updated: 2023/06/30 13:00:10 by javier           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "./push_swap.h"
 
-void	pb(t_nodo **stck_a, t_nodo **stck_b)
+void	pb(t_nodo **stack_a, t_nodo **stack_b)
 {
 	t_nodo	*temp;
+	int		flag;
 
-	if (*stck_a == NULL)
+	flag = 0;
+	if (*stack_a == NULL)
 		return ;
-	temp = (*stck_a)->next;
-	if (*stck_a)
-		(*stck_a)->prev = NULL;
-	if (*stck_b)
-		(*stck_b)->prev = (*stck_a);
-	(*stck_a)->next = *stck_b;
-	*stck_b = *stck_a;
-	temp->prev = NULL;
-	*stck_a = temp;
-	ft_position(stck_a);
-	ft_position(stck_b);
-	printf("pb\n");
+	if ((*stack_a)->next == NULL)
+	{
+		temp = NULL;
+		flag = 1;
+	}
+	else
+		temp = (*stack_a)->next;
+	if (*stack_a)
+		(*stack_a)->prev = NULL;
+	if (*stack_b)
+		(*stack_b)->prev = (*stack_a);
+	(*stack_a)->next = *stack_b;
+	*stack_b = *stack_a;
+	if (flag == 0)
+		temp->prev = NULL;
+	*stack_a = temp;
+	ft_position(stack_a);
+	ft_position(stack_b);
+	ft_printf("pb\n");
 }
 
-void	pa(t_nodo **stck_b, t_nodo **stck_a)
+void	pa(t_nodo **stack_a, t_nodo **stack_b)
 {
 	t_nodo	*temp;
+	int		flag;
 
-	if (*stck_b == NULL)
+	flag = 0;
+	if (*stack_b == NULL)
 		return ;
-	temp = (*stck_b)->next;
-	if (*stck_b)
-		(*stck_b)->prev = NULL;
-	if (*stck_a)
-		(*stck_a)->prev = (*stck_b);
-	(*stck_b)->next = *stck_a;
-	*stck_a = *stck_b;
-	temp->prev = NULL;
-	*stck_b = temp;
-	ft_position(stck_b);
-	ft_position(stck_a);
-	printf("pa\n");
+	if ((*stack_b)->next == NULL)
+	{
+		temp = NULL;
+		flag = 1;
+	}
+	else
+		temp = (*stack_b)->next;
+	if (*stack_b)
+		(*stack_b)->prev = NULL;
+	if (*stack_a)
+		(*stack_a)->prev = (*stack_b);
+	(*stack_b)->next = *stack_a;
+	*stack_a = *stack_b;
+	if (flag == 0)
+		temp->prev = NULL;
+	*stack_b = temp;
+	ft_position(stack_b);
+	ft_position(stack_a);
+	ft_printf("pa\n");
 }

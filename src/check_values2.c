@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   check_values2.c                                    :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: Jroldan- <jroldan-@student.42malaga.com    +#+  +:+       +#+        */
+/*   By: javier <javier@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/06/19 17:25:39 by javier            #+#    #+#             */
-/*   Updated: 2023/06/20 17:42:05 by Jroldan-         ###   ########.fr       */
+/*   Updated: 2023/06/29 11:40:53 by javier           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -26,7 +26,6 @@ int	ft_stack_sorted(t_nodo *lst)
 		else
 			return (0);
 	}
-	printf("ordenado\n");
 	return (1);
 }
 
@@ -62,7 +61,7 @@ void	ft_asign_index(t_nodo **lst, int size)
 	int		i;
 
 	if (*lst == NULL)
-		printf("lista vacia \n");
+		ft_printf("Error\n");
 	aux = *lst;
 	i = 0;
 	while (++i <= size)
