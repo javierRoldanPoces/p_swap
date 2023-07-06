@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   check_values2.c                                    :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: javier <javier@student.42.fr>              +#+  +:+       +#+        */
+/*   By: Jroldan- <jroldan-@student.42malaga.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/06/19 17:25:39 by javier            #+#    #+#             */
-/*   Updated: 2023/06/29 11:40:53 by javier           ###   ########.fr       */
+/*   Updated: 2023/07/06 20:54:33 by Jroldan-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -61,7 +61,7 @@ void	ft_asign_index(t_nodo **lst, int size)
 	int		i;
 
 	if (*lst == NULL)
-		ft_printf("Error\n");
+		ft_putstr_fd("Error\n", 2);
 	aux = *lst;
 	i = 0;
 	while (++i <= size)
@@ -76,4 +76,13 @@ void	ft_asign_index(t_nodo **lst, int size)
 		}
 		aux = *lst;
 	}
+}
+
+int	fail_parse(int wall)
+{
+	ft_putstr_fd("Error\n", 2);
+	if (wall == 1)
+		exit (0);
+	else
+		exit (0);
 }

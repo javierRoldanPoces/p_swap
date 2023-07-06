@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   operation_list2.c                                  :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: javier <javier@student.42.fr>              +#+  +:+       +#+        */
+/*   By: Jroldan- <jroldan-@student.42malaga.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/06/19 17:21:09 by javier            #+#    #+#             */
-/*   Updated: 2023/07/05 19:33:26 by javier           ###   ########.fr       */
+/*   Updated: 2023/07/06 22:08:06 by Jroldan-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -52,8 +52,9 @@ int	ft_size_lst(t_nodo *lst)
 	return (count);
 }
 
-void	error(void)
+void	error(t_nodo *stack_a)
 {
-	ft_printf("Error\n");
-	exit(EXIT_FAILURE);
+	ft_free_lst(stack_a);
+	ft_putstr_fd("Error\n", 2);
+	exit(0);
 }

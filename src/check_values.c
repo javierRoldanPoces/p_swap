@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   check_values.c                                     :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: javier <javier@student.42.fr>              +#+  +:+       +#+        */
+/*   By: Jroldan- <jroldan-@student.42malaga.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/06/07 18:20:24 by Jroldan-          #+#    #+#             */
-/*   Updated: 2023/06/29 11:40:42 by javier           ###   ########.fr       */
+/*   Updated: 2023/07/06 17:56:46 by Jroldan-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -47,7 +47,7 @@ int	ft_check_sign(char *str)
 
 	i = 0;
 	if ((str[i] == '+' || str[i] == '-') && str[i + 1] == '\0')
-		return (ft_printf("Error\n"), 0);
+		return (0);
 	if (str[i] == '+' || str[i] == '-')
 		i++;
 	while (str[i])

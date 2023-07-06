@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   push_swap.h                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: javier <javier@student.42.fr>              +#+  +:+       +#+        */
+/*   By: Jroldan- <jroldan-@student.42malaga.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/06/06 18:46:50 by Jroldan-          #+#    #+#             */
-/*   Updated: 2023/07/05 19:32:54 by javier           ###   ########.fr       */
+/*   Updated: 2023/07/06 22:08:53 by Jroldan-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -42,7 +42,7 @@ int			ft_size_lst(t_nodo *lst);
 //free
 void		ft_free_lst(t_nodo *lst);
 void		free_memory(char **str);
-void		error(void);
+void		error(t_nodo *stack_a);
 //parse
 int			ft_check_sign(char *str);
 int			ft_check_digit(char *str);
@@ -51,6 +51,7 @@ int			ft_stack_sorted(t_nodo *lst);
 long		ft_atoi_long(const char *str);
 int			ft_range_int(long a, long b);
 void		ft_asign_index(t_nodo **lst, int size);
+int			fail_parse(int wall);
 //movements
 void		swap(t_nodo **a, char c);
 void		ss(t_nodo **a, t_nodo **b);

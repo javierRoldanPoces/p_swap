@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   main.c                                             :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: javier <javier@student.42.fr>              +#+  +:+       +#+        */
+/*   By: Jroldan- <jroldan-@student.42malaga.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/06/06 18:28:55 by Jroldan-          #+#    #+#             */
-/*   Updated: 2023/07/05 19:53:45 by javier           ###   ########.fr       */
+/*   Updated: 2023/07/06 22:14:25 by Jroldan-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -22,24 +22,16 @@ static int	ft_params(char **str, t_nodo *aux, t_nodo **lst, int wall)
 			insert_last(lst, aux);
 		else
 		{
-			ft_printf("Error\n");
-			ft_free_lst(aux);
-			ft_free_lst(*lst);
-			if (wall == 1)
+			if (fail_parse(wall) == 0)
 				return (0);
-		}
+		}	
 	}
 	else
-	{	
-		ft_printf("Error\n");
-		ft_free_lst(*lst);
-		if (wall == 1)
-			return (0);
-	}
+		fail_parse(wall);
 	return (1);
 }
 
-static void	ft_two_params( char **argv, t_nodo *aux, t_nodo **stack_a)
+static void	ft_two_params(char **argv, t_nodo *aux, t_nodo **stack_a)
 {
 	int		i;	
 	char	**arg;
@@ -59,12 +51,10 @@ static void	ft_two_params( char **argv, t_nodo *aux, t_nodo **stack_a)
 	free_memory(arg);
 }
 
-/*
-void	leaks(void)
-{
-	system("leaks");
-}
-*/
+// void	leaks(void)
+// {
+// 	system("leaks -q push_swap");
+// }
 
 static void	stack_is_sorted(t_nodo *stack_a)
 {
@@ -105,21 +95,21 @@ int	main(int argc, char **argv)
 	t_nodo		*stack_a;
 	t_nodo		*stack_b;
 
+	//atexit(leaks);
 	stack_a = init_list();
-	aux = init_list();
+	aux = NULL;
 	if (argc > 2)
 	{
 		i = 0;
 		while (++i < argc)
 			ft_params(&argv[i], aux, &stack_a, 0);
 	}
-	else if (argc == 2)
+	else if (argc == 1)
+		exit (1);
+	else if (argc <= 2)
 		ft_two_params(argv, aux, &(stack_a));
 	if (ft_size_lst(stack_a) == 0)
-	{	
-		ft_free_lst(stack_a);
-		error();
-	}
+		error(stack_a);
 	if (ft_stack_sorted(stack_a))
 		stack_is_sorted(stack_a);
 	order_stack(&(stack_a), &(stack_b));
