@@ -6,7 +6,7 @@
 /*   By: Jroldan- <jroldan-@student.42malaga.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/06/06 18:28:55 by Jroldan-          #+#    #+#             */
-/*   Updated: 2023/07/06 22:14:25 by Jroldan-         ###   ########.fr       */
+/*   Updated: 2023/07/07 11:51:39 by Jroldan-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -51,10 +51,10 @@ static void	ft_two_params(char **argv, t_nodo *aux, t_nodo **stack_a)
 	free_memory(arg);
 }
 
-// void	leaks(void)
-// {
-// 	system("leaks -q push_swap");
-// }
+void	leaks(void)
+{
+	system("leaks -q push_swap");
+}
 
 static void	stack_is_sorted(t_nodo *stack_a)
 {
